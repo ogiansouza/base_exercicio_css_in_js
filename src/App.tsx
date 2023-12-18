@@ -1,18 +1,17 @@
 import Header from './components/Cabecalho'
 import Hero from './components/Hero'
 import ListaVagas from './containers/ListaVagas'
-
-import './global.css'
+import EstiloGlobal, { container} from './styles'
 
 function App() {
   return (
-    <>
+    <EstiloGlobal>
       <Header />
       <Hero />
-      <div className="container">
+      <container>
         <ListaVagas />
-      </div>
-    </>
+      </container>
+    </EstiloGlobal>
   )
 }
 
