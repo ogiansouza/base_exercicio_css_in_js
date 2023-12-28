@@ -1,4 +1,4 @@
-import styles from './Vaga.module.css'
+import { StyledVaga, StyledVagaTitulo, StyledLink } from './styled'
 
 type Props = {
   titulo: string
@@ -11,8 +11,8 @@ type Props = {
 }
 
 const Vaga = (props: Props) => (
-  <li className={styles.vaga}>
-    <h3 className={styles.vagaTitulo}>{props.titulo}</h3>
+  <StyledVaga>
+    <StyledVagaTitulo>{props.titulo}</StyledVagaTitulo>
     <ul>
       <li>Localizacao: {props.localizacao}</li>
       <li>Senioridade: {props.nivel}</li>
@@ -22,10 +22,8 @@ const Vaga = (props: Props) => (
       </li>
       <li>Requisitos: {props.requisitos.join(', ')}</li>
     </ul>
-    <a className={styles.vagaLink} href="#">
-      Ver detalhes e candidatar-se
-    </a>
-  </li>
+    <StyledLink href="#">Ver detalhes e candidatar-se</StyledLink>
+  </StyledVaga>
 )
 
 export default Vaga
