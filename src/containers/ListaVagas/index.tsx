@@ -1,12 +1,10 @@
 import { useState } from 'react'
 import FormVagas from '../../components/FormVagas'
-
 import Vaga from '../../components/Vaga'
+import { ListaContainer } from './styles' // Importando estilos de styles.ts
 
-import styles from './ListaVagas.module.css'
-
-type Vaga = {
-  id: string
+type VagaType = {
+  id: number // Corrigi o tipo do id para number
   titulo: string
   localizacao: string
   nivel: string
@@ -16,7 +14,7 @@ type Vaga = {
   requisitos: string[]
 }
 
-const vagas = [
+const vagas: VagaType[] = [
   {
     id: 1,
     titulo: 'Desenvolvedor front-end',
@@ -91,15 +89,14 @@ const vagas = [
 
 const ListaVagas = () => {
   const [filtro, setFiltro] = useState<string>('')
-
-  const vagasFiltradas = vagas.filter(
-    (x) => x.titulo.toLocaleLowerCase().search(filtro) >= 0
+  const vagasFiltradas = vagas.filter((x) =>
+    x.titulo.toLowerCase().includes(filtro.toLowerCase())
   )
 
   return (
     <div>
       <FormVagas aoPesquisar={(termo: string) => setFiltro(termo)} />
-      <ul className={styles.vagas}>
+      <ListaContainer>
         {vagasFiltradas.map((vag) => (
           <Vaga
             key={vag.id}
@@ -112,7 +109,7 @@ const ListaVagas = () => {
             requisitos={vag.requisitos}
           />
         ))}
-      </ul>
+      </ListaContainer>
     </div>
   )
 }
