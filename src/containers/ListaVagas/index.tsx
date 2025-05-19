@@ -1,11 +1,9 @@
 import { useState } from 'react'
 import FormVagas from '../../components/FormVagas'
-
 import Vaga from '../../components/Vaga'
+import { VagasContainer } from './ListaVaga' // Importação correta
 
-import styles from './ListaVagas.module.css'
-
-type Vaga = {
+type VagaProps = {
   id: string
   titulo: string
   localizacao: string
@@ -16,9 +14,9 @@ type Vaga = {
   requisitos: string[]
 }
 
-const vagas = [
+const vagas: VagaProps[] = [
   {
-    id: 1,
+    id: '1',
     titulo: 'Desenvolvedor front-end',
     localizacao: 'remoto',
     nivel: 'junior',
@@ -28,7 +26,7 @@ const vagas = [
     requisitos: ['HTML', 'CSS', 'JavaScript', 'jQuery']
   },
   {
-    id: 2,
+    id: '2',
     titulo: 'Desenvolvedor NodeJS',
     localizacao: 'remoto',
     nivel: 'pleno',
@@ -38,7 +36,7 @@ const vagas = [
     requisitos: ['HTML', 'CSS', 'JavaScript', 'jQuery']
   },
   {
-    id: 3,
+    id: '3',
     titulo: 'Desenvolvedor fullstack',
     localizacao: 'remoto',
     nivel: 'pleno',
@@ -48,7 +46,7 @@ const vagas = [
     requisitos: ['HTML', 'CSS', 'JavaScript', 'jQuery']
   },
   {
-    id: 4,
+    id: '4',
     titulo: 'Designer de interfaces',
     localizacao: 'remoto',
     nivel: 'junior',
@@ -58,7 +56,7 @@ const vagas = [
     requisitos: ['HTML', 'CSS', 'JavaScript', 'jQuery']
   },
   {
-    id: 5,
+    id: '5',
     titulo: 'Desenvolvedor front-end',
     localizacao: 'remoto',
     nivel: 'senior',
@@ -68,7 +66,7 @@ const vagas = [
     requisitos: ['HTML', 'CSS', 'JavaScript', 'jQuery']
   },
   {
-    id: 6,
+    id: '6',
     titulo: 'Desenvolvedor front-end para projeto internacional',
     localizacao: 'remoto',
     nivel: 'senior',
@@ -78,7 +76,7 @@ const vagas = [
     requisitos: ['HTML', 'CSS', 'JavaScript', 'jQuery']
   },
   {
-    id: 7,
+    id: '7',
     titulo: 'Desenvolvedor front-end',
     localizacao: 'São Paulo/SP',
     nivel: 'junior',
@@ -92,27 +90,27 @@ const vagas = [
 const ListaVagas = () => {
   const [filtro, setFiltro] = useState<string>('')
 
-  const vagasFiltradas = vagas.filter(
-    (x) => x.titulo.toLocaleLowerCase().search(filtro) >= 0
+  const vagasFiltradas = vagas.filter((vaga) =>
+    vaga.titulo.toLowerCase().includes(filtro.toLowerCase())
   )
 
   return (
     <div>
       <FormVagas aoPesquisar={(termo: string) => setFiltro(termo)} />
-      <ul className={styles.vagas}>
-        {vagasFiltradas.map((vag) => (
+      <VagasContainer as="ul">
+        {vagasFiltradas.map((vaga) => (
           <Vaga
-            key={vag.id}
-            titulo={vag.titulo}
-            localizacao={vag.localizacao}
-            nivel={vag.nivel}
-            modalidade={vag.modalidade}
-            salarioMin={vag.salarioMin}
-            salarioMax={vag.salarioMax}
-            requisitos={vag.requisitos}
+            key={vaga.id}
+            titulo={vaga.titulo}
+            localizacao={vaga.localizacao}
+            nivel={vaga.nivel}
+            modalidade={vaga.modalidade}
+            salarioMin={vaga.salarioMin}
+            salarioMax={vaga.salarioMax}
+            requisitos={vaga.requisitos}
           />
         ))}
-      </ul>
+      </VagasContainer>
     </div>
   )
 }
