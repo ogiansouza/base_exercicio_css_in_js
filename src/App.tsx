@@ -1,17 +1,24 @@
-import Header from './components/Cabecalho'
+import React from 'react'
+
 import Hero from './components/Hero'
 import ListaVagas from './containers/ListaVagas'
 
-import './global.css'
+import GlobalStyle, { Container } from './global'
+import { ThemeProvider } from 'styled-components'
+import mainTheme from './Theme/temaPrincipal'
+import Cabecalho from './components/Cabecalho'
 
 function App() {
   return (
     <>
-      <Header />
-      <Hero />
-      <div className="container">
-        <ListaVagas />
-      </div>
+      <ThemeProvider theme={mainTheme}>
+        <GlobalStyle />
+        <Cabecalho>EBAC Vagas</Cabecalho>
+        <Hero />
+        <Container>
+          <ListaVagas />
+        </Container>
+      </ThemeProvider>
     </>
   )
 }

@@ -1,9 +1,11 @@
-import styles from './Cabecalho.module.css'
+import { Cabecalho as CabecalhoStyle } from './Cabecalho'
 
-const Cabecalho = () => (
-  <header className={styles.cabecalho}>
-    <h1>EBAC Jobs</h1>
-  </header>
-)
+export type Props = {
+  children: string
+}
+
+const Cabecalho = (props: Props) => {
+  return <CabecalhoStyle>{props.children}</CabecalhoStyle>
+}
 
 export default Cabecalho
