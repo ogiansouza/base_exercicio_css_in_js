@@ -1,6 +1,13 @@
 import styled from 'styled-components'
 
-export const VagasContainer = styled.div`
+export const Container = styled.main`
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 32px;
+`
+
+export const Vacancies = styled.ul`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
@@ -11,3 +18,5 @@ export const VagasContainer = styled.div`
     grid-template-columns: 1fr;
   }
 `
+
+export default Vacancies

@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Cores } from '../../styles/styles'
 
 export const Form = styled.section`
   height: 360px;
@@ -18,8 +19,7 @@ export const Form = styled.section`
     width: 100%;
     height: 100%;
     content: '';
-    background-color: rgba(30, 60, 120, 0.5); /* tom azulado */
-    opacity: 0.7;
+    background-color: rgba(167, 114, 125, 0.7);
     z-index: 1;
   }
 
@@ -32,7 +32,7 @@ export const Form = styled.section`
 export const FormContent = styled.div`
   position: relative;
   z-index: 2;
-  color: #ffffff;
+  color: ${Cores.corSecundaria};
   text-align: center;
   max-width: 800px;
   padding: 0 16px;
@@ -41,8 +41,8 @@ export const FormContent = styled.div`
 export const HeroTitle = styled.h1`
   font-family: 'Gloock', serif;
   font-size: 48px;
-  color: #ffffff;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: ${Cores.corSecundaria};
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
 
   @media (max-width: 768px) {
     font-size: 32px;

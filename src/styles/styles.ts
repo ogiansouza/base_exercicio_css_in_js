@@ -1,6 +1,6 @@
 export const Cores = {
-  corPrincipal: '#ffffff',
-  corSecundaria: '#004080',
+  corPrincipal: '#a7727d',
+  corSecundaria: '#f9f5e7',
   texto: '#333',
   fundo: '#fff'
 }
