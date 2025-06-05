@@ -1,0 +1,2088 @@
+0 verbose cli C:\Program Files\node.exe C:\Program Files\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.15.1
+3 silly config load:file:C:\Program Files\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Usuário\Documents\EBAC\python\Introdução ao CSS in JS com React\exercicio-\exercicio-fork\base_exercicio_css_in_js\.npmrc
+5 silly config load:file:C:\Users\Usuário\.npmrc
+6 silly config load:file:C:\Users\Usuário\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install @types/styled-components
+8 verbose argv "install" "--save-dev" "@types/styled-components"
+9 verbose logfile logs-max:10 dir:C:\Users\Usuário\Documents\EBAC\python\Introdução ao CSS in JS com React\exercicio-\exercicio-fork\base_exercicio_css_in_js\UsersDESKTOP-U9J66QUAppDataLocalnpm-cache\_logs\2025-06-04T23_02_18_138Z-
+10 verbose logfile C:\Users\Usuário\Documents\EBAC\python\Introdução ao CSS in JS com React\exercicio-\exercicio-fork\base_exercicio_css_in_js\UsersDESKTOP-U9J66QUAppDataLocalnpm-cache\_logs\2025-06-04T23_02_18_138Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest @types/styled-components@^5.1.34
+16 silly packumentCache full:https://registry.npmjs.org/@types%2fstyled-components cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/@types%2fstyled-components 993ms (cache revalidated)
+18 silly packumentCache full:https://registry.npmjs.org/@types%2fstyled-components set size:232417 disposed:false
+19 silly placeDep ROOT @types/styled-components@5.1.34 REPLACE for: ebac-jobs@0.1.0 want: ^5.1.34
+20 silly reify moves {}
+21 silly audit bulk request {
+21 silly audit   '@adobe/css-tools': [ '4.1.0' ],
+21 silly audit   '@ampproject/remapping': [ '2.2.0' ],
+21 silly audit   '@babel/code-frame': [ '7.18.6' ],
+21 silly audit   '@babel/compat-data': [ '7.20.14' ],
+21 silly audit   '@babel/core': [ '7.20.12' ],
+21 silly audit   semver: [ '6.3.0', '7.3.8' ],
+21 silly audit   '@babel/eslint-parser': [ '7.19.1' ],
+21 silly audit   'eslint-visitor-keys': [ '2.1.0', '3.3.0' ],
+21 silly audit   '@babel/generator': [ '7.20.14' ],
+21 silly audit   '@jridgewell/gen-mapping': [ '0.3.2', '0.1.1' ],
+21 silly audit   '@babel/helper-annotate-as-pure': [ '7.18.6' ],
+21 silly audit   '@babel/helper-builder-binary-assignment-operator-visitor': [ '7.18.9' ],
+21 silly audit   '@babel/helper-compilation-targets': [ '7.20.7' ],
+21 silly audit   '@babel/helper-create-class-features-plugin': [ '7.20.12' ],
+21 silly audit   '@babel/helper-create-regexp-features-plugin': [ '7.20.5' ],
+21 silly audit   '@babel/helper-define-polyfill-provider': [ '0.3.3' ],
+21 silly audit   '@babel/helper-environment-visitor': [ '7.18.9' ],
+21 silly audit   '@babel/helper-explode-assignable-expression': [ '7.18.6' ],
+21 silly audit   '@babel/helper-function-name': [ '7.19.0' ],
+21 silly audit   '@babel/helper-hoist-variables': [ '7.18.6' ],
+21 silly audit   '@babel/helper-member-expression-to-functions': [ '7.20.7' ],
+21 silly audit   '@babel/helper-module-imports': [ '7.18.6' ],
+21 silly audit   '@babel/helper-module-transforms': [ '7.20.11' ],
+21 silly audit   '@babel/helper-optimise-call-expression': [ '7.18.6' ],
+21 silly audit   '@babel/helper-plugin-utils': [ '7.20.2' ],
+21 silly audit   '@babel/helper-remap-async-to-generator': [ '7.18.9' ],
+21 silly audit   '@babel/helper-replace-supers': [ '7.20.7' ],
+21 silly audit   '@babel/helper-simple-access': [ '7.20.2' ],
+21 silly audit   '@babel/helper-skip-transparent-expression-wrappers': [ '7.20.0' ],
+21 silly audit   '@babel/helper-split-export-declaration': [ '7.18.6' ],
+21 silly audit   '@babel/helper-string-parser': [ '7.19.4' ],
+21 silly audit   '@babel/helper-validator-identifier': [ '7.19.1' ],
+21 silly audit   '@babel/helper-validator-option': [ '7.18.6' ],
+21 silly audit   '@babel/helper-wrap-function': [ '7.20.5' ],
+21 silly audit   '@babel/helpers': [ '7.20.13' ],
+21 silly audit   '@babel/highlight': [ '7.18.6' ],
+21 silly audit   '@babel/parser': [ '7.20.15' ],
+21 silly audit   '@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression': [ '7.18.6' ],
+21 silly audit   '@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining': [ '7.20.7' ],
+21 silly audit   '@babel/plugin-proposal-async-generator-functions': [ '7.20.7' ],
+21 silly audit   '@babel/plugin-proposal-class-properties': [ '7.18.6' ],
+21 silly audit   '@babel/plugin-proposal-class-static-block': [ '7.20.7' ],
+21 silly audit   '@babel/plugin-proposal-decorators': [ '7.20.13' ],
+21 silly audit   '@babel/plugin-proposal-dynamic-import': [ '7.18.6' ],
+21 silly audit   '@babel/plugin-proposal-export-namespace-from': [ '7.18.9' ],
+21 silly audit   '@babel/plugin-proposal-json-strings': [ '7.18.6' ],
+21 silly audit   '@babel/plugin-proposal-logical-assignment-operators': [ '7.20.7' ],
+21 silly audit   '@babel/plugin-proposal-nullish-coalescing-operator': [ '7.18.6' ],
+21 silly audit   '@babel/plugin-proposal-numeric-separator': [ '7.18.6' ],
+21 silly audit   '@babel/plugin-proposal-object-rest-spread': [ '7.20.7' ],
+21 silly audit   '@babel/plugin-proposal-optional-catch-binding': [ '7.18.6' ],
+21 silly audit   '@babel/plugin-proposal-optional-chaining': [ '7.20.7' ],
+21 silly audit   '@babel/plugin-proposal-private-methods': [ '7.18.6' ],
+21 silly audit   '@babel/plugin-proposal-private-property-in-object': [ '7.20.5' ],
+21 silly audit   '@babel/plugin-proposal-unicode-property-regex': [ '7.18.6' ],
+21 silly audit   '@babel/plugin-syntax-async-generators': [ '7.8.4' ],
+21 silly audit   '@babel/plugin-syntax-bigint': [ '7.8.3' ],
+21 silly audit   '@babel/plugin-syntax-class-properties': [ '7.12.13' ],
+21 silly audit   '@babel/plugin-syntax-class-static-block': [ '7.14.5' ],
+21 silly audit   '@babel/plugin-syntax-decorators': [ '7.19.0' ],
+21 silly audit   '@babel/plugin-syntax-dynamic-import': [ '7.8.3' ],
+21 silly audit   '@babel/plugin-syntax-export-namespace-from': [ '7.8.3' ],
+21 silly audit   '@babel/plugin-syntax-flow': [ '7.18.6' ],
+21 silly audit   '@babel/plugin-syntax-import-assertions': [ '7.20.0' ],
+21 silly audit   '@babel/plugin-syntax-import-meta': [ '7.10.4' ],
+21 silly audit   '@babel/plugin-syntax-json-strings': [ '7.8.3' ],
+21 silly audit   '@babel/plugin-syntax-jsx': [ '7.18.6' ],
+21 silly audit   '@babel/plugin-syntax-logical-assignment-operators': [ '7.10.4' ],
+21 silly audit   '@babel/plugin-syntax-nullish-coalescing-operator': [ '7.8.3' ],
+21 silly audit   '@babel/plugin-syntax-numeric-separator': [ '7.10.4' ],
+21 silly audit   '@babel/plugin-syntax-object-rest-spread': [ '7.8.3' ],
+21 silly audit   '@babel/plugin-syntax-optional-catch-binding': [ '7.8.3' ],
+21 silly audit   '@babel/plugin-syntax-optional-chaining': [ '7.8.3' ],
+21 silly audit   '@babel/plugin-syntax-private-property-in-object': [ '7.14.5' ],
+21 silly audit   '@babel/plugin-syntax-top-level-await': [ '7.14.5' ],
+21 silly audit   '@babel/plugin-syntax-typescript': [ '7.20.0' ],
+21 silly audit   '@babel/plugin-transform-arrow-functions': [ '7.20.7' ],
+21 silly audit   '@babel/plugin-transform-async-to-generator': [ '7.20.7' ],
+21 silly audit   '@babel/plugin-transform-block-scoped-functions': [ '7.18.6' ],
+21 silly audit   '@babel/plugin-transform-block-scoping': [ '7.20.15' ],
+21 silly audit   '@babel/plugin-transform-classes': [ '7.20.7' ],
+21 silly audit   '@babel/plugin-transform-computed-properties': [ '7.20.7' ],
+21 silly audit   '@babel/plugin-transform-destructuring': [ '7.20.7' ],
+21 silly audit   '@babel/plugin-transform-dotall-regex': [ '7.18.6' ],
+21 silly audit   '@babel/plugin-transform-duplicate-keys': [ '7.18.9' ],
+21 silly audit   '@babel/plugin-transform-exponentiation-operator': [ '7.18.6' ],
+21 silly audit   '@babel/plugin-transform-flow-strip-types': [ '7.19.0' ],
+21 silly audit   '@babel/plugin-transform-for-of': [ '7.18.8' ],
+21 silly audit   '@babel/plugin-transform-function-name': [ '7.18.9' ],
+21 silly audit   '@babel/plugin-transform-literals': [ '7.18.9' ],
+21 silly audit   '@babel/plugin-transform-member-expression-literals': [ '7.18.6' ],
+21 silly audit   '@babel/plugin-transform-modules-amd': [ '7.20.11' ],
+21 silly audit   '@babel/plugin-transform-modules-commonjs': [ '7.20.11' ],
+21 silly audit   '@babel/plugin-transform-modules-systemjs': [ '7.20.11' ],
+21 silly audit   '@babel/plugin-transform-modules-umd': [ '7.18.6' ],
+21 silly audit   '@babel/plugin-transform-named-capturing-groups-regex': [ '7.20.5' ],
+21 silly audit   '@babel/plugin-transform-new-target': [ '7.18.6' ],
+21 silly audit   '@babel/plugin-transform-object-super': [ '7.18.6' ],
+21 silly audit   '@babel/plugin-transform-parameters': [ '7.20.7' ],
+21 silly audit   '@babel/plugin-transform-property-literals': [ '7.18.6' ],
+21 silly audit   '@babel/plugin-transform-react-constant-elements': [ '7.20.2' ],
+21 silly audit   '@babel/plugin-transform-react-display-name': [ '7.18.6' ],
+21 silly audit   '@babel/plugin-transform-react-jsx': [ '7.20.13' ],
+21 silly audit   '@babel/plugin-transform-react-jsx-development': [ '7.18.6' ],
+21 silly audit   '@babel/plugin-transform-react-pure-annotations': [ '7.18.6' ],
+21 silly audit   '@babel/plugin-transform-regenerator': [ '7.20.5' ],
+21 silly audit   '@babel/plugin-transform-reserved-words': [ '7.18.6' ],
+21 silly audit   '@babel/plugin-transform-runtime': [ '7.19.6' ],
+21 silly audit   '@babel/plugin-transform-shorthand-properties': [ '7.18.6' ],
+21 silly audit   '@babel/plugin-transform-spread': [ '7.20.7' ],
+21 silly audit   '@babel/plugin-transform-sticky-regex': [ '7.18.6' ],
+21 silly audit   '@babel/plugin-transform-template-literals': [ '7.18.9' ],
+21 silly audit   '@babel/plugin-transform-typeof-symbol': [ '7.18.9' ],
+21 silly audit   '@babel/plugin-transform-typescript': [ '7.20.13' ],
+21 silly audit   '@babel/plugin-transform-unicode-escapes': [ '7.18.10' ],
+21 silly audit   '@babel/plugin-transform-unicode-regex': [ '7.18.6' ],
+21 silly audit   '@babel/preset-env': [ '7.20.2' ],
+21 silly audit   '@babel/preset-modules': [ '0.1.5' ],
+21 silly audit   '@babel/preset-react': [ '7.18.6' ],
+21 silly audit   '@babel/preset-typescript': [ '7.18.6' ],
+21 silly audit   '@babel/regjsgen': [ '0.8.0' ],
+21 silly audit   '@babel/runtime': [ '7.20.13' ],
+21 silly audit   '@babel/template': [ '7.20.7' ],
+21 silly audit   '@babel/traverse': [ '7.20.13' ],
+21 silly audit   '@babel/types': [ '7.20.7' ],
+21 silly audit   '@bcoe/v8-coverage': [ '0.2.3' ],
+21 silly audit   '@csstools/normalize.css': [ '12.0.0' ],
+21 silly audit   '@csstools/postcss-cascade-layers': [ '1.1.1' ],
+21 silly audit   '@csstools/postcss-color-function': [ '1.1.1' ],
+21 silly audit   '@csstools/postcss-font-format-keywords': [ '1.0.1' ],
+21 silly audit   '@csstools/postcss-hwb-function': [ '1.0.2' ],
+21 silly audit   '@csstools/postcss-ic-unit': [ '1.0.1' ],
+21 silly audit   '@csstools/postcss-is-pseudo-class': [ '2.0.7' ],
+21 silly audit   '@csstools/postcss-nested-calc': [ '1.0.0' ],
+21 silly audit   '@csstools/postcss-normalize-display-values': [ '1.0.1' ],
+21 silly audit   '@csstools/postcss-oklab-function': [ '1.1.1' ],
+21 silly audit   '@csstools/postcss-progressive-custom-properties': [ '1.3.0' ],
+21 silly audit   '@csstools/postcss-stepped-value-functions': [ '1.0.1' ],
+21 silly audit   '@csstools/postcss-text-decoration-shorthand': [ '1.0.0' ],
+21 silly audit   '@csstools/postcss-trigonometric-functions': [ '1.0.2' ],
+21 silly audit   '@csstools/postcss-unset-value': [ '1.0.2' ],
+21 silly audit   '@csstools/selector-specificity': [ '2.1.1' ],
+21 silly audit   '@emotion/is-prop-valid': [ '1.2.0' ],
+21 silly audit   '@emotion/memoize': [ '0.8.0' ],
+21 silly audit   '@emotion/stylis': [ '0.8.5' ],
+21 silly audit   '@emotion/unitless': [ '0.7.5' ],
+21 silly audit   '@eslint/eslintrc': [ '1.4.1' ],
+21 silly audit   argparse: [ '2.0.1', '1.0.10' ],
+21 silly audit   globals: [ '13.20.0', '11.12.0' ],
+21 silly audit   'js-yaml': [ '4.1.0', '3.14.1' ],
+21 silly audit   'type-fest': [ '0.20.2', '0.16.0', '0.21.3' ],
+21 silly audit   '@humanwhocodes/config-array': [ '0.11.8' ],
+21 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+21 silly audit   '@humanwhocodes/object-schema': [ '1.2.1' ],
+21 silly audit   '@istanbuljs/load-nyc-config': [ '1.1.0' ],
+21 silly audit   camelcase: [ '5.3.1', '6.3.0' ],
+21 silly audit   'find-up': [ '4.1.0', '5.0.0', '3.0.0' ],
+21 silly audit   'locate-path': [ '5.0.0', '6.0.0', '3.0.0' ],
+21 silly audit   'p-limit': [ '2.3.0', '3.1.0' ],
+21 silly audit   'p-locate': [ '4.1.0', '5.0.0', '3.0.0' ],
+21 silly audit   '@istanbuljs/schema': [ '0.1.3' ],
+21 silly audit   '@jest/console': [ '27.5.1', '28.1.3' ],
+21 silly audit   'ansi-styles': [ '4.3.0', '3.2.1', '5.2.0' ],
+21 silly audit   chalk: [ '4.1.2', '3.0.0', '2.4.2' ],
+21 silly audit   'color-convert': [ '2.0.1', '1.9.3' ],
+21 silly audit   'color-name': [ '1.1.4', '1.1.3' ],
+21 silly audit   'has-flag': [ '4.0.0', '3.0.0' ],
+21 silly audit   'supports-color': [ '7.2.0', '8.1.1', '5.5.0' ],
+21 silly audit   '@jest/core': [ '27.5.1' ],
+21 silly audit   '@jest/environment': [ '27.5.1' ],
+21 silly audit   '@jest/fake-timers': [ '27.5.1' ],
+21 silly audit   '@jest/globals': [ '27.5.1' ],
+21 silly audit   '@jest/reporters': [ '27.5.1' ],
+21 silly audit   'source-map': [ '0.6.1', '0.7.4', '0.8.0-beta.0' ],
+21 silly audit   '@jest/schemas': [ '28.1.3' ],
+21 silly audit   '@jest/source-map': [ '27.5.1' ],
+21 silly audit   '@jest/test-result': [ '27.5.1', '28.1.3' ],
+21 silly audit   '@jest/test-sequencer': [ '27.5.1' ],
+21 silly audit   '@jest/transform': [ '27.5.1' ],
+21 silly audit   '@jest/types': [ '27.5.1', '28.1.3' ],
+21 silly audit   '@jridgewell/resolve-uri': [ '3.1.0' ],
+21 silly audit   '@jridgewell/set-array': [ '1.1.2' ],
+21 silly audit   '@jridgewell/source-map': [ '0.3.2' ],
+21 silly audit   '@jridgewell/sourcemap-codec': [ '1.4.14' ],
+21 silly audit   '@jridgewell/trace-mapping': [ '0.3.17' ],
+21 silly audit   '@leichtgewicht/ip-codec': [ '2.0.4' ],
+21 silly audit   '@nicolo-ribaudo/eslint-scope-5-internals': [ '5.1.1-v1' ],
+21 silly audit   'eslint-scope': [ '5.1.1', '7.1.1' ],
+21 silly audit   estraverse: [ '4.3.0', '5.3.0' ],
+21 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+21 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+21 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+21 silly audit   '@pmmmwh/react-refresh-webpack-plugin': [ '0.5.10' ],
+21 silly audit   '@rollup/plugin-babel': [ '5.3.1' ],
+21 silly audit   '@rollup/plugin-node-resolve': [ '11.2.1' ],
+21 silly audit   '@rollup/plugin-replace': [ '2.4.2' ],
+21 silly audit   '@rollup/pluginutils': [ '3.1.0' ],
+21 silly audit   '@types/estree': [ '0.0.39', '1.0.0', '0.0.51' ],
+21 silly audit   '@rushstack/eslint-patch': [ '1.2.0' ],
+21 silly audit   '@sinclair/typebox': [ '0.24.51' ],
+21 silly audit   '@sinonjs/commons': [ '1.8.6' ],
+21 silly audit   '@sinonjs/fake-timers': [ '8.1.0' ],
+21 silly audit   '@surma/rollup-plugin-off-main-thread': [ '2.2.3' ],
+21 silly audit   '@svgr/babel-plugin-add-jsx-attribute': [ '5.4.0' ],
+21 silly audit   '@svgr/babel-plugin-remove-jsx-attribute': [ '5.4.0' ],
+21 silly audit   '@svgr/babel-plugin-remove-jsx-empty-expression': [ '5.0.1' ],
+21 silly audit   '@svgr/babel-plugin-replace-jsx-attribute-value': [ '5.0.1' ],
+21 silly audit   '@svgr/babel-plugin-svg-dynamic-title': [ '5.4.0' ],
+21 silly audit   '@svgr/babel-plugin-svg-em-dimensions': [ '5.4.0' ],
+21 silly audit   '@svgr/babel-plugin-transform-react-native-svg': [ '5.4.0' ],
+21 silly audit   '@svgr/babel-plugin-transform-svg-component': [ '5.5.0' ],
+21 silly audit   '@svgr/babel-preset': [ '5.5.0' ],
+21 silly audit   '@svgr/core': [ '5.5.0' ],
+21 silly audit   '@svgr/hast-util-to-babel-ast': [ '5.5.0' ],
+21 silly audit   '@svgr/plugin-jsx': [ '5.5.0' ],
+21 silly audit   '@svgr/plugin-svgo': [ '5.5.0' ],
+21 silly audit   '@svgr/webpack': [ '5.5.0' ],
+21 silly audit   '@testing-library/dom': [ '9.0.0', '8.20.0' ],
+21 silly audit   '@testing-library/jest-dom': [ '5.16.5' ],
+21 silly audit   '@testing-library/react': [ '13.4.0' ],
+21 silly audit   '@testing-library/user-event': [ '13.5.0' ],
+21 silly audit   '@tootallnate/once': [ '1.1.2' ],
+21 silly audit   '@trysound/sax': [ '0.2.0' ],
+21 silly audit   '@types/aria-query': [ '5.0.1' ],
+21 silly audit   '@types/babel__core': [ '7.20.0' ],
+21 silly audit   '@types/babel__generator': [ '7.6.4' ],
+21 silly audit   '@types/babel__template': [ '7.4.1' ],
+21 silly audit   '@types/babel__traverse': [ '7.18.3' ],
+21 silly audit   '@types/body-parser': [ '1.19.2' ],
+21 silly audit   '@types/bonjour': [ '3.5.10' ],
+21 silly audit   '@types/connect': [ '3.4.35' ],
+21 silly audit   '@types/connect-history-api-fallback': [ '1.3.5' ],
+21 silly audit   '@types/eslint': [ '8.21.1' ],
+21 silly audit   '@types/eslint-scope': [ '3.7.4' ],
+21 silly audit   '@types/express': [ '4.17.17' ],
+21 silly audit   '@types/express-serve-static-core': [ '4.17.33' ],
+21 silly audit   '@types/graceful-fs': [ '4.1.6' ],
+21 silly audit   '@types/hoist-non-react-statics': [ '3.3.1' ],
+21 silly audit   '@types/html-minifier-terser': [ '6.1.0' ],
+21 silly audit   '@types/http-proxy': [ '1.17.9' ],
+21 silly audit   '@types/istanbul-lib-coverage': [ '2.0.4' ],
+21 silly audit   '@types/istanbul-lib-report': [ '3.0.0' ],
+21 silly audit   '@types/istanbul-reports': [ '3.0.1' ],
+21 silly audit   '@types/jest': [ '27.5.2' ],
+21 silly audit   '@types/json-schema': [ '7.0.11' ],
+21 silly audit   '@types/json5': [ '0.0.29' ],
+21 silly audit   '@types/mime': [ '3.0.1' ],
+21 silly audit   '@types/node': [ '16.18.12' ],
+21 silly audit   '@types/parse-json': [ '4.0.0' ],
+21 silly audit   '@types/prettier': [ '2.7.2' ],
+21 silly audit   '@types/prop-types': [ '15.7.5' ],
+21 silly audit   '@types/q': [ '1.5.5' ],
+21 silly audit   '@types/qs': [ '6.9.7' ],
+21 silly audit   '@types/range-parser': [ '1.2.4' ],
+21 silly audit   '@types/react': [ '18.0.28' ],
+21 silly audit   '@types/react-dom': [ '18.0.11' ],
+21 silly audit   '@types/resolve': [ '1.17.1' ],
+21 silly audit   '@types/retry': [ '0.12.0' ],
+21 silly audit   '@types/scheduler': [ '0.16.2' ],
+21 silly audit   '@types/semver': [ '7.3.13' ],
+21 silly audit   '@types/serve-index': [ '1.9.1' ],
+21 silly audit   '@types/serve-static': [ '1.15.0' ],
+21 silly audit   '@types/sockjs': [ '0.3.33' ],
+21 silly audit   '@types/stack-utils': [ '2.0.1' ],
+21 silly audit   '@types/testing-library__jest-dom': [ '5.14.5' ],
+21 silly audit   '@types/trusted-types': [ '2.0.3' ],
+21 silly audit   '@types/ws': [ '8.5.4' ],
+21 silly audit   '@types/yargs': [ '16.0.5', '17.0.22' ],
+21 silly audit   '@types/yargs-parser': [ '21.0.0' ],
+21 silly audit   '@typescript-eslint/eslint-plugin': [ '5.52.0' ],
+21 silly audit   '@typescript-eslint/experimental-utils': [ '5.52.0' ],
+21 silly audit   '@typescript-eslint/parser': [ '5.52.0' ],
+21 silly audit   '@typescript-eslint/scope-manager': [ '5.52.0' ],
+21 silly audit   '@typescript-eslint/type-utils': [ '5.52.0' ],
+21 silly audit   '@typescript-eslint/types': [ '5.52.0' ],
+21 silly audit   '@typescript-eslint/typescript-estree': [ '5.52.0' ],
+21 silly audit   '@typescript-eslint/utils': [ '5.52.0' ],
+21 silly audit   '@typescript-eslint/visitor-keys': [ '5.52.0' ],
+21 silly audit   '@webassemblyjs/ast': [ '1.11.1' ],
+21 silly audit   '@webassemblyjs/floating-point-hex-parser': [ '1.11.1' ],
+21 silly audit   '@webassemblyjs/helper-api-error': [ '1.11.1' ],
+21 silly audit   '@webassemblyjs/helper-buffer': [ '1.11.1' ],
+21 silly audit   '@webassemblyjs/helper-numbers': [ '1.11.1' ],
+21 silly audit   '@webassemblyjs/helper-wasm-bytecode': [ '1.11.1' ],
+21 silly audit   '@webassemblyjs/helper-wasm-section': [ '1.11.1' ],
+21 silly audit   '@webassemblyjs/ieee754': [ '1.11.1' ],
+21 silly audit   '@webassemblyjs/leb128': [ '1.11.1' ],
+21 silly audit   '@webassemblyjs/utf8': [ '1.11.1' ],
+21 silly audit   '@webassemblyjs/wasm-edit': [ '1.11.1' ],
+21 silly audit   '@webassemblyjs/wasm-gen': [ '1.11.1' ],
+21 silly audit   '@webassemblyjs/wasm-opt': [ '1.11.1' ],
+21 silly audit   '@webassemblyjs/wasm-parser': [ '1.11.1' ],
+21 silly audit   '@webassemblyjs/wast-printer': [ '1.11.1' ],
+21 silly audit   '@xtuc/ieee754': [ '1.2.0' ],
+21 silly audit   '@xtuc/long': [ '4.2.2' ],
+21 silly audit   abab: [ '2.0.6' ],
+21 silly audit   accepts: [ '1.3.8' ],
+21 silly audit   acorn: [ '8.8.2', '7.4.1' ],
+21 silly audit   'acorn-globals': [ '6.0.0' ],
+21 silly audit   'acorn-import-assertions': [ '1.8.0' ],
+21 silly audit   'acorn-jsx': [ '5.3.2' ],
+21 silly audit   'acorn-node': [ '1.8.2' ],
+21 silly audit   'acorn-walk': [ '7.2.0' ],
+21 silly audit   address: [ '1.2.2' ],
+21 silly audit   'adjust-sourcemap-loader': [ '4.0.0' ],
+21 silly audit   'agent-base': [ '6.0.2' ],
+21 silly audit   ajv: [ '6.12.6', '8.12.0' ],
+21 silly audit   'ajv-formats': [ '2.1.1' ],
+21 silly audit   'json-schema-traverse': [ '1.0.0', '0.4.1' ],
+21 silly audit   'ajv-keywords': [ '3.5.2', '5.1.0' ],
+21 silly audit   'ansi-escapes': [ '4.3.2' ],
+21 silly audit   'ansi-html-community': [ '0.0.8' ],
+21 silly audit   'ansi-regex': [ '5.0.1', '6.0.1' ],
+21 silly audit   anymatch: [ '3.1.3' ],
+21 silly audit   arg: [ '5.0.2' ],
+21 silly audit   'aria-query': [ '5.1.3' ],
+21 silly audit   'array-flatten': [ '2.1.2', '1.1.1' ],
+21 silly audit   'array-includes': [ '3.1.6' ],
+21 silly audit   'array-union': [ '2.1.0' ],
+21 silly audit   'array.prototype.flat': [ '1.3.1' ],
+21 silly audit   'array.prototype.flatmap': [ '1.3.1' ],
+21 silly audit   'array.prototype.reduce': [ '1.0.5' ],
+21 silly audit   'array.prototype.tosorted': [ '1.1.1' ],
+21 silly audit   asap: [ '2.0.6' ],
+21 silly audit   'ast-types-flow': [ '0.0.7' ],
+21 silly audit   async: [ '3.2.4' ],
+21 silly audit   asynckit: [ '0.4.0' ],
+21 silly audit   'at-least-node': [ '1.0.0' ],
+21 silly audit   autoprefixer: [ '10.4.13' ],
+21 silly audit   'available-typed-arrays': [ '1.0.5' ],
+21 silly audit   'axe-core': [ '4.6.3' ],
+21 silly audit   'axobject-query': [ '3.1.1' ],
+21 silly audit   'babel-jest': [ '27.5.1' ],
+21 silly audit   'babel-loader': [ '8.3.0' ],
+21 silly audit   'schema-utils': [ '2.7.1', '4.0.0', '2.7.0', '3.1.1' ],
+21 silly audit   'babel-plugin-istanbul': [ '6.1.1' ],
+21 silly audit   'babel-plugin-jest-hoist': [ '27.5.1' ],
+21 silly audit   'babel-plugin-macros': [ '3.1.0' ],
+21 silly audit   'babel-plugin-named-asset-import': [ '0.3.8' ],
+21 silly audit   'babel-plugin-polyfill-corejs2': [ '0.3.3' ],
+21 silly audit   'babel-plugin-polyfill-corejs3': [ '0.6.0' ],
+21 silly audit   'babel-plugin-polyfill-regenerator': [ '0.4.1' ],
+21 silly audit   'babel-plugin-styled-components': [ '2.0.7' ],
+21 silly audit   'babel-plugin-syntax-jsx': [ '6.18.0' ],
+21 silly audit   'babel-plugin-transform-react-remove-prop-types': [ '0.4.24' ],
+21 silly audit   'babel-preset-current-node-syntax': [ '1.0.1' ],
+21 silly audit   'babel-preset-jest': [ '27.5.1' ],
+21 silly audit   'babel-preset-react-app': [ '10.0.1' ],
+21 silly audit   'balanced-match': [ '1.0.2' ],
+21 silly audit   batch: [ '0.6.1' ],
+21 silly audit   bfj: [ '7.0.2' ],
+21 silly audit   'big.js': [ '5.2.2' ],
+21 silly audit   'binary-extensions': [ '2.2.0' ],
+21 silly audit   bluebird: [ '3.7.2' ],
+21 silly audit   'body-parser': [ '1.20.1' ],
+21 silly audit   bytes: [ '3.1.2', '3.0.0' ],
+21 silly audit   debug: [ '2.6.9', '4.3.4', '3.2.7' ],
+21 silly audit   'iconv-lite': [ '0.4.24', '0.6.3' ],
+21 silly audit   ms: [ '2.0.0', '2.1.2', '2.1.3' ],
+21 silly audit   'bonjour-service': [ '1.1.0' ],
+21 silly audit   boolbase: [ '1.0.0' ],
+21 silly audit   'brace-expansion': [ '1.1.11', '2.0.1' ],
+21 silly audit   braces: [ '3.0.2' ],
+21 silly audit   'browser-process-hrtime': [ '1.0.0' ],
+21 silly audit   browserslist: [ '4.21.5' ],
+21 silly audit   bser: [ '2.1.1' ],
+21 silly audit   'buffer-from': [ '1.1.2' ],
+21 silly audit   'builtin-modules': [ '3.3.0' ],
+21 silly audit   'call-bind': [ '1.0.2' ],
+21 silly audit   callsites: [ '3.1.0' ],
+21 silly audit   'camel-case': [ '4.1.2' ],
+21 silly audit   'camelcase-css': [ '2.0.1' ],
+21 silly audit   camelize: [ '1.0.1' ],
+21 silly audit   'caniuse-api': [ '3.0.0' ],
+21 silly audit   'caniuse-lite': [ '1.0.30001457' ],
+21 silly audit   'case-sensitive-paths-webpack-plugin': [ '2.4.0' ],
+21 silly audit   'char-regex': [ '1.0.2', '2.0.1' ],
+21 silly audit   'check-types': [ '11.2.2' ],
+21 silly audit   chokidar: [ '3.5.3' ],
+21 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+21 silly audit   'chrome-trace-event': [ '1.0.3' ],
+21 silly audit   'ci-info': [ '3.8.0' ],
+21 silly audit   'cjs-module-lexer': [ '1.2.2' ],
+21 silly audit   'clean-css': [ '5.3.2' ],
+21 silly audit   cliui: [ '7.0.4' ],
+21 silly audit   co: [ '4.6.0' ],
+21 silly audit   coa: [ '2.0.2' ],
+21 silly audit   'collect-v8-coverage': [ '1.0.1' ],
+21 silly audit   colord: [ '2.9.3' ],
+21 silly audit   colorette: [ '2.0.19' ],
+21 silly audit   'combined-stream': [ '1.0.8' ],
+21 silly audit   commander: [ '8.3.0', '7.2.0', '2.20.3' ],
+21 silly audit   'common-path-prefix': [ '3.0.0' ],
+21 silly audit   'common-tags': [ '1.8.2' ],
+21 silly audit   commondir: [ '1.0.1' ],
+21 silly audit   compressible: [ '2.0.18' ],
+21 silly audit   compression: [ '1.7.4' ],
+21 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+21 silly audit   'concat-map': [ '0.0.1' ],
+21 silly audit   'confusing-browser-globals': [ '1.0.11' ],
+21 silly audit   'connect-history-api-fallback': [ '2.0.0' ],
+21 silly audit   'content-disposition': [ '0.5.4' ],
+21 silly audit   'content-type': [ '1.0.5' ],
+21 silly audit   'convert-source-map': [ '1.9.0' ],
+21 silly audit   cookie: [ '0.5.0' ],
+21 silly audit   'cookie-signature': [ '1.0.6' ],
+21 silly audit   'core-js': [ '3.28.0' ],
+21 silly audit   'core-js-compat': [ '3.28.0' ],
+21 silly audit   'core-js-pure': [ '3.28.0' ],
+21 silly audit   'core-util-is': [ '1.0.3' ],
+21 silly audit   cosmiconfig: [ '7.1.0', '6.0.0' ],
+21 silly audit   'cross-spawn': [ '7.0.3' ],
+21 silly audit   'crypto-random-string': [ '2.0.0' ],
+21 silly audit   'css-blank-pseudo': [ '3.0.3' ],
+21 silly audit   'css-color-keywords': [ '1.0.0' ],
+21 silly audit   'css-declaration-sorter': [ '6.3.1' ],
+21 silly audit   'css-has-pseudo': [ '3.0.4' ],
+21 silly audit   'css-loader': [ '6.7.3' ],
+21 silly audit   'css-minimizer-webpack-plugin': [ '3.4.1' ],
+21 silly audit   'css-prefers-color-scheme': [ '6.0.3' ],
+21 silly audit   'css-select': [ '4.3.0', '2.1.0' ],
+21 silly audit   'css-select-base-adapter': [ '0.1.1' ],
+21 silly audit   'css-to-react-native': [ '3.2.0' ],
+21 silly audit   'css-tree': [ '1.0.0-alpha.37', '1.1.3' ],
+21 silly audit   'css-what': [ '6.1.0', '3.4.2' ],
+21 silly audit   'css.escape': [ '1.5.1' ],
+21 silly audit   cssdb: [ '7.4.1' ],
+21 silly audit   cssesc: [ '3.0.0' ],
+21 silly audit   cssnano: [ '5.1.15' ],
+21 silly audit   'cssnano-preset-default': [ '5.2.14' ],
+21 silly audit   'cssnano-utils': [ '3.1.0' ],
+21 silly audit   csso: [ '4.2.0' ],
+21 silly audit   'mdn-data': [ '2.0.14', '2.0.4' ],
+21 silly audit   cssom: [ '0.4.4', '0.3.8' ],
+21 silly audit   cssstyle: [ '2.3.0' ],
+21 silly audit   csstype: [ '3.1.1' ],
+21 silly audit   'damerau-levenshtein': [ '1.0.8' ],
+21 silly audit   'data-urls': [ '2.0.0' ],
+21 silly audit   'decimal.js': [ '10.4.3' ],
+21 silly audit   dedent: [ '0.7.0' ],
+21 silly audit   'deep-equal': [ '2.2.0' ],
+21 silly audit   'deep-is': [ '0.1.4' ],
+21 silly audit   deepmerge: [ '4.3.0' ],
+21 silly audit   'default-gateway': [ '6.0.3' ],
+21 silly audit   'define-lazy-prop': [ '2.0.0' ],
+21 silly audit   'define-properties': [ '1.2.0' ],
+21 silly audit   defined: [ '1.0.1' ],
+21 silly audit   'delayed-stream': [ '1.0.0' ],
+21 silly audit   depd: [ '2.0.0', '1.1.2' ],
+21 silly audit   destroy: [ '1.2.0' ],
+21 silly audit   'detect-newline': [ '3.1.0' ],
+21 silly audit   'detect-node': [ '2.1.0' ],
+21 silly audit   'detect-port-alt': [ '1.1.6' ],
+21 silly audit   detective: [ '5.2.1' ],
+21 silly audit   didyoumean: [ '1.2.2' ],
+21 silly audit   'diff-sequences': [ '27.5.1' ],
+21 silly audit   'dir-glob': [ '3.0.1' ],
+21 silly audit   dlv: [ '1.1.3' ],
+21 silly audit   'dns-equal': [ '1.0.0' ],
+21 silly audit   'dns-packet': [ '5.4.0' ],
+21 silly audit   doctrine: [ '3.0.0', '2.1.0' ],
+21 silly audit   'dom-accessibility-api': [ '0.5.16' ],
+21 silly audit   'dom-converter': [ '0.2.0' ],
+21 silly audit   'dom-serializer': [ '1.4.1', '0.2.2' ],
+21 silly audit   domelementtype: [ '2.3.0', '1.3.1' ],
+21 silly audit   domexception: [ '2.0.1' ],
+21 silly audit   'webidl-conversions': [ '5.0.0', '6.1.0', '4.0.2' ],
+21 silly audit   domhandler: [ '4.3.1' ],
+21 silly audit   domutils: [ '2.8.0', '1.7.0' ],
+21 silly audit   'dot-case': [ '3.0.4' ],
+21 silly audit   dotenv: [ '10.0.0' ],
+21 silly audit   'dotenv-expand': [ '5.1.0' ],
+21 silly audit   duplexer: [ '0.1.2' ],
+21 silly audit   'ee-first': [ '1.1.1' ],
+21 silly audit   ejs: [ '3.1.8' ],
+21 silly audit   'electron-to-chromium': [ '1.4.302' ],
+21 silly audit   emittery: [ '0.8.1', '0.10.2' ],
+21 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+21 silly audit   'emojis-list': [ '3.0.0' ],
+21 silly audit   encodeurl: [ '1.0.2' ],
+21 silly audit   'enhanced-resolve': [ '5.12.0' ],
+21 silly audit   entities: [ '2.2.0' ],
+21 silly audit   'error-ex': [ '1.3.2' ],
+21 silly audit   'error-stack-parser': [ '2.1.4' ],
+21 silly audit   'es-abstract': [ '1.21.1' ],
+21 silly audit   'es-array-method-boxes-properly': [ '1.0.0' ],
+21 silly audit   'es-get-iterator': [ '1.1.3' ],
+21 silly audit   'es-module-lexer': [ '0.9.3' ],
+21 silly audit   'es-set-tostringtag': [ '2.0.1' ],
+21 silly audit   'es-shim-unscopables': [ '1.0.0' ],
+21 silly audit   'es-to-primitive': [ '1.2.1' ],
+21 silly audit   escalade: [ '3.1.1' ],
+21 silly audit   'escape-html': [ '1.0.3' ],
+21 silly audit   'escape-string-regexp': [ '1.0.5', '4.0.0', '2.0.0' ],
+21 silly audit   escodegen: [ '2.0.0' ],
+21 silly audit   levn: [ '0.3.0', '0.4.1' ],
+21 silly audit   optionator: [ '0.8.3', '0.9.1' ],
+21 silly audit   'prelude-ls': [ '1.1.2', '1.2.1' ],
+21 silly audit   'type-check': [ '0.3.2', '0.4.0' ],
+21 silly audit   eslint: [ '8.34.0' ],
+21 silly audit   'eslint-config-prettier': [ '8.6.0' ],
+21 silly audit   'eslint-config-react-app': [ '7.0.1' ],
+21 silly audit   'eslint-import-resolver-node': [ '0.3.7' ],
+21 silly audit   'eslint-module-utils': [ '2.7.4' ],
+21 silly audit   'eslint-plugin-flowtype': [ '8.0.3' ],
+21 silly audit   'eslint-plugin-import': [ '2.27.5' ],
+21 silly audit   'eslint-plugin-jest': [ '25.7.0' ],
+21 silly audit   'eslint-plugin-jsx-a11y': [ '6.7.1' ],
+21 silly audit   'eslint-plugin-prettier': [ '4.2.1' ],
+21 silly audit   'eslint-plugin-react': [ '7.32.2' ],
+21 silly audit   'eslint-plugin-react-hooks': [ '4.6.0' ],
+21 silly audit   resolve: [ '2.0.0-next.4', '1.22.1' ],
+21 silly audit   'eslint-plugin-testing-library': [ '5.10.2' ],
+21 silly audit   'eslint-utils': [ '3.0.0' ],
+21 silly audit   'eslint-webpack-plugin': [ '3.2.0' ],
+21 silly audit   'jest-worker': [ '28.1.3', '27.5.1', '26.6.2' ],
+21 silly audit   espree: [ '9.4.1' ],
+21 silly audit   esprima: [ '4.0.1' ],
+21 silly audit   esquery: [ '1.4.2' ],
+21 silly audit   esrecurse: [ '4.3.0' ],
+21 silly audit   'estree-walker': [ '1.0.1' ],
+21 silly audit   esutils: [ '2.0.3' ],
+21 silly audit   etag: [ '1.8.1' ],
+21 silly audit   eventemitter3: [ '4.0.7' ],
+21 silly audit   events: [ '3.3.0' ],
+21 silly audit   execa: [ '5.1.1' ],
+21 silly audit   exit: [ '0.1.2' ],
+21 silly audit   expect: [ '27.5.1' ],
+21 silly audit   express: [ '4.18.2' ],
+21 silly audit   'fast-deep-equal': [ '3.1.3' ],
+21 silly audit   'fast-diff': [ '1.2.0' ],
+21 silly audit   'fast-glob': [ '3.2.12' ],
+21 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+21 silly audit   'fast-levenshtein': [ '2.0.6' ],
+21 silly audit   fastq: [ '1.15.0' ],
+21 silly audit   'faye-websocket': [ '0.11.4' ],
+21 silly audit   'fb-watchman': [ '2.0.2' ],
+21 silly audit   'file-entry-cache': [ '6.0.1' ],
+21 silly audit   'file-loader': [ '6.2.0' ],
+21 silly audit   filelist: [ '1.0.4' ],
+21 silly audit   minimatch: [ '5.1.6', '3.1.2' ],
+21 silly audit   filesize: [ '8.0.7' ],
+21 silly audit   'fill-range': [ '7.0.1' ],
+21 silly audit   finalhandler: [ '1.2.0' ],
+21 silly audit   'find-cache-dir': [ '3.3.2' ],
+21 silly audit   'flat-cache': [ '3.0.4' ],
+21 silly audit   flatted: [ '3.2.7' ],
+21 silly audit   'follow-redirects': [ '1.15.2' ],
+21 silly audit   'for-each': [ '0.3.3' ],
+21 silly audit   'fork-ts-checker-webpack-plugin': [ '6.5.2' ],
+21 silly audit   'fs-extra': [ '9.1.0', '10.1.0' ],
+21 silly audit   tapable: [ '1.1.3', '2.2.1' ],
+21 silly audit   'form-data': [ '3.0.1' ],
+21 silly audit   forwarded: [ '0.2.0' ],
+21 silly audit   'fraction.js': [ '4.2.0' ],
+21 silly audit   fresh: [ '0.5.2' ],
+21 silly audit   'fs-monkey': [ '1.0.3' ],
+21 silly audit   'fs.realpath': [ '1.0.0' ],
+21 silly audit   fsevents: [ '2.3.2' ],
+21 silly audit   'function-bind': [ '1.1.1' ],
+21 silly audit   'function.prototype.name': [ '1.1.5' ],
+21 silly audit   'functions-have-names': [ '1.2.3' ],
+21 silly audit   gensync: [ '1.0.0-beta.2' ],
+21 silly audit   'get-caller-file': [ '2.0.5' ],
+21 silly audit   'get-intrinsic': [ '1.2.0' ],
+21 silly audit   'get-own-enumerable-property-symbols': [ '3.0.2' ],
+21 silly audit   'get-package-type': [ '0.1.0' ],
+21 silly audit   'get-stream': [ '6.0.1' ],
+21 silly audit   'get-symbol-description': [ '1.0.0' ],
+21 silly audit   glob: [ '7.2.3' ],
+21 silly audit   'glob-to-regexp': [ '0.4.1' ],
+21 silly audit   'global-modules': [ '2.0.0' ],
+21 silly audit   'global-prefix': [ '3.0.0' ],
+21 silly audit   which: [ '1.3.1', '2.0.2' ],
+21 silly audit   globalthis: [ '1.0.3' ],
+21 silly audit   globby: [ '11.1.0' ],
+21 silly audit   gopd: [ '1.0.1' ],
+21 silly audit   'graceful-fs': [ '4.2.10' ],
+21 silly audit   'grapheme-splitter': [ '1.0.4' ],
+21 silly audit   'gzip-size': [ '6.0.0' ],
+21 silly audit   'handle-thing': [ '2.0.1' ],
+21 silly audit   'harmony-reflect': [ '1.6.2' ],
+21 silly audit   has: [ '1.0.3' ],
+21 silly audit   'has-bigints': [ '1.0.2' ],
+21 silly audit   'has-property-descriptors': [ '1.0.0' ],
+21 silly audit   'has-proto': [ '1.0.1' ],
+21 silly audit   'has-symbols': [ '1.0.3' ],
+21 silly audit   'has-tostringtag': [ '1.0.0' ],
+21 silly audit   he: [ '1.2.0' ],
+21 silly audit   'hoist-non-react-statics': [ '3.3.2' ],
+21 silly audit   'react-is': [ '16.13.1', '18.2.0', '17.0.2' ],
+21 silly audit   hoopy: [ '0.1.4' ],
+21 silly audit   'hpack.js': [ '2.1.6' ],
+21 silly audit   isarray: [ '1.0.0', '2.0.5' ],
+21 silly audit   'readable-stream': [ '2.3.7', '3.6.0' ],
+21 silly audit   string_decoder: [ '1.1.1', '1.3.0' ],
+21 silly audit   'html-encoding-sniffer': [ '2.0.1' ],
+21 silly audit   'html-entities': [ '2.3.3' ],
+21 silly audit   'html-escaper': [ '2.0.2' ],
+21 silly audit   'html-minifier-terser': [ '6.1.0' ],
+21 silly audit   'html-webpack-plugin': [ '5.5.0' ],
+21 silly audit   htmlparser2: [ '6.1.0' ],
+21 silly audit   'http-deceiver': [ '1.2.7' ],
+21 silly audit   'http-errors': [ '2.0.0', '1.6.3' ],
+21 silly audit   'http-parser-js': [ '0.5.8' ],
+21 silly audit   'http-proxy': [ '1.18.1' ],
+21 silly audit   'http-proxy-agent': [ '4.0.1' ],
+21 silly audit   'http-proxy-middleware': [ '2.0.6' ],
+21 silly audit   'https-proxy-agent': [ '5.0.1' ],
+21 silly audit   'human-signals': [ '2.1.0' ],
+21 silly audit   'icss-utils': [ '5.1.0' ],
+21 silly audit   idb: [ '7.1.1' ],
+21 silly audit   'identity-obj-proxy': [ '3.0.0' ],
+21 silly audit   ignore: [ '5.2.4' ],
+21 silly audit   immer: [ '9.0.19' ],
+21 silly audit   'import-fresh': [ '3.3.0' ],
+21 silly audit   'resolve-from': [ '4.0.0', '5.0.0' ],
+21 silly audit   'import-local': [ '3.1.0' ],
+21 silly audit   imurmurhash: [ '0.1.4' ],
+21 silly audit   'indent-string': [ '4.0.0' ],
+21 silly audit   inflight: [ '1.0.6' ],
+21 silly audit   inherits: [ '2.0.4', '2.0.3' ],
+21 silly audit   ini: [ '1.3.8' ],
+21 silly audit   'internal-slot': [ '1.0.5' ],
+21 silly audit   'ipaddr.js': [ '2.0.1', '1.9.1' ],
+21 silly audit   'is-arguments': [ '1.1.1' ],
+21 silly audit   'is-array-buffer': [ '3.0.1' ],
+21 silly audit   'is-arrayish': [ '0.2.1' ],
+21 silly audit   'is-bigint': [ '1.0.4' ],
+21 silly audit   'is-binary-path': [ '2.1.0' ],
+21 silly audit   'is-boolean-object': [ '1.1.2' ],
+21 silly audit   'is-callable': [ '1.2.7' ],
+21 silly audit   'is-core-module': [ '2.11.0' ],
+21 silly audit   'is-date-object': [ '1.0.5' ],
+21 silly audit   'is-docker': [ '2.2.1' ],
+21 silly audit   'is-extglob': [ '2.1.1' ],
+21 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+21 silly audit   'is-generator-fn': [ '2.1.0' ],
+21 silly audit   'is-glob': [ '4.0.3' ],
+21 silly audit   'is-map': [ '2.0.2' ],
+21 silly audit   'is-module': [ '1.0.0' ],
+21 silly audit   'is-negative-zero': [ '2.0.2' ],
+21 silly audit   'is-number': [ '7.0.0' ],
+21 silly audit   'is-number-object': [ '1.0.7' ],
+21 silly audit   'is-obj': [ '1.0.1' ],
+21 silly audit   'is-path-inside': [ '3.0.3' ],
+21 silly audit   'is-plain-obj': [ '3.0.0' ],
+21 silly audit   'is-potential-custom-element-name': [ '1.0.1' ],
+21 silly audit   'is-regex': [ '1.1.4' ],
+21 silly audit   'is-regexp': [ '1.0.0' ],
+21 silly audit   'is-root': [ '2.1.0' ],
+21 silly audit   'is-set': [ '2.0.2' ],
+21 silly audit   'is-shared-array-buffer': [ '1.0.2' ],
+21 silly audit   'is-stream': [ '2.0.1' ],
+21 silly audit   'is-string': [ '1.0.7' ],
+21 silly audit   'is-symbol': [ '1.0.4' ],
+21 silly audit   'is-typed-array': [ '1.1.10' ],
+21 silly audit   'is-typedarray': [ '1.0.0' ],
+21 silly audit   'is-weakmap': [ '2.0.1' ],
+21 silly audit   'is-weakref': [ '1.0.2' ],
+21 silly audit   'is-weakset': [ '2.0.2' ],
+21 silly audit   'is-wsl': [ '2.2.0' ],
+21 silly audit   isexe: [ '2.0.0' ],
+21 silly audit   'istanbul-lib-coverage': [ '3.2.0' ],
+21 silly audit   'istanbul-lib-instrument': [ '5.2.1' ],
+21 silly audit   'istanbul-lib-report': [ '3.0.0' ],
+21 silly audit   'istanbul-lib-source-maps': [ '4.0.1' ],
+21 silly audit   'istanbul-reports': [ '3.1.5' ],
+21 silly audit   jake: [ '10.8.5' ],
+21 silly audit   jest: [ '27.5.1' ],
+21 silly audit   'jest-changed-files': [ '27.5.1' ],
+21 silly audit   'jest-circus': [ '27.5.1' ],
+21 silly audit   'jest-cli': [ '27.5.1' ],
+21 silly audit   'jest-config': [ '27.5.1' ],
+21 silly audit   'jest-diff': [ '27.5.1' ],
+21 silly audit   'jest-docblock': [ '27.5.1' ],
+21 silly audit   'jest-each': [ '27.5.1' ],
+21 silly audit   'jest-environment-jsdom': [ '27.5.1' ],
+21 silly audit   'jest-environment-node': [ '27.5.1' ],
+21 silly audit   'jest-get-type': [ '27.5.1' ],
+21 silly audit   'jest-haste-map': [ '27.5.1' ],
+21 silly audit   'jest-jasmine2': [ '27.5.1' ],
+21 silly audit   'jest-leak-detector': [ '27.5.1' ],
+21 silly audit   'jest-matcher-utils': [ '27.5.1' ],
+21 silly audit   'jest-message-util': [ '27.5.1', '28.1.3' ],
+21 silly audit   'jest-mock': [ '27.5.1' ],
+21 silly audit   'jest-pnp-resolver': [ '1.2.3' ],
+21 silly audit   'jest-regex-util': [ '27.5.1', '28.0.2' ],
+21 silly audit   'jest-resolve': [ '27.5.1' ],
+21 silly audit   'jest-resolve-dependencies': [ '27.5.1' ],
+21 silly audit   'jest-runner': [ '27.5.1' ],
+21 silly audit   'jest-runtime': [ '27.5.1' ],
+21 silly audit   'jest-serializer': [ '27.5.1' ],
+21 silly audit   'jest-snapshot': [ '27.5.1' ],
+21 silly audit   'jest-util': [ '27.5.1', '28.1.3' ],
+21 silly audit   'jest-validate': [ '27.5.1' ],
+21 silly audit   'jest-watch-typeahead': [ '1.1.0' ],
+21 silly audit   slash: [ '3.0.0', '4.0.0' ],
+21 silly audit   'jest-watcher': [ '28.1.3', '27.5.1' ],
+21 silly audit   'string-length': [ '4.0.2', '5.0.1' ],
+21 silly audit   'strip-ansi': [ '6.0.1', '7.0.1' ],
+21 silly audit   'pretty-format': [ '28.1.3', '27.5.1' ],
+21 silly audit   'js-sdsl': [ '4.3.0' ],
+21 silly audit   'js-tokens': [ '4.0.0' ],
+21 silly audit   jsdom: [ '16.7.0' ],
+21 silly audit   jsesc: [ '2.5.2', '0.5.0' ],
+21 silly audit   'json-parse-even-better-errors': [ '2.3.1' ],
+21 silly audit   'json-schema': [ '0.4.0' ],
+21 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+21 silly audit   json5: [ '2.2.3', '1.0.2' ],
+21 silly audit   jsonfile: [ '6.1.0' ],
+21 silly audit   jsonpointer: [ '5.0.1' ],
+21 silly audit   'jsx-ast-utils': [ '3.3.3' ],
+21 silly audit   'kind-of': [ '6.0.3' ],
+21 silly audit   kleur: [ '3.0.3' ],
+21 silly audit   klona: [ '2.0.6' ],
+21 silly audit   'language-subtag-registry': [ '0.3.22' ],
+21 silly audit   'language-tags': [ '1.0.5' ],
+21 silly audit   leven: [ '3.1.0' ],
+21 silly audit   lilconfig: [ '2.0.6' ],
+21 silly audit   'lines-and-columns': [ '1.2.4' ],
+21 silly audit   'loader-runner': [ '4.3.0' ],
+21 silly audit   'loader-utils': [ '2.0.4', '3.2.1' ],
+21 silly audit   lodash: [ '4.17.21' ],
+21 silly audit   'lodash.debounce': [ '4.0.8' ],
+21 silly audit   'lodash.memoize': [ '4.1.2' ],
+21 silly audit   'lodash.merge': [ '4.6.2' ],
+21 silly audit   'lodash.sortby': [ '4.7.0' ],
+21 silly audit   'lodash.uniq': [ '4.5.0' ],
+21 silly audit   'loose-envify': [ '1.4.0' ],
+21 silly audit   'lower-case': [ '2.0.2' ],
+21 silly audit   'lru-cache': [ '5.1.1', '6.0.0' ],
+21 silly audit   'lz-string': [ '1.4.4' ],
+21 silly audit   'magic-string': [ '0.25.9' ],
+21 silly audit   'make-dir': [ '3.1.0' ],
+21 silly audit   makeerror: [ '1.0.12' ],
+21 silly audit   'media-typer': [ '0.3.0' ],
+21 silly audit   memfs: [ '3.4.13' ],
+21 silly audit   'merge-descriptors': [ '1.0.1' ],
+21 silly audit   'merge-stream': [ '2.0.0' ],
+21 silly audit   merge2: [ '1.4.1' ],
+21 silly audit   methods: [ '1.1.2' ],
+21 silly audit   micromatch: [ '4.0.5' ],
+21 silly audit   mime: [ '1.6.0' ],
+21 silly audit   'mime-db': [ '1.52.0' ],
+21 silly audit   'mime-types': [ '2.1.35' ],
+21 silly audit   'mimic-fn': [ '2.1.0' ],
+21 silly audit   'min-indent': [ '1.0.1' ],
+21 silly audit   'mini-css-extract-plugin': [ '2.7.2' ],
+21 silly audit   'minimalistic-assert': [ '1.0.1' ],
+21 silly audit   minimist: [ '1.2.8' ],
+21 silly audit   mkdirp: [ '0.5.6' ],
+21 silly audit   'multicast-dns': [ '7.2.5' ],
+21 silly audit   nanoid: [ '3.3.4' ],
+21 silly audit   'natural-compare': [ '1.4.0' ],
+21 silly audit   'natural-compare-lite': [ '1.4.0' ],
+21 silly audit   negotiator: [ '0.6.3' ],
+21 silly audit   'neo-async': [ '2.6.2' ],
+21 silly audit   'no-case': [ '3.0.4' ],
+21 silly audit   'node-forge': [ '1.3.1' ],
+21 silly audit   'node-int64': [ '0.4.0' ],
+21 silly audit   'node-releases': [ '2.0.10' ],
+21 silly audit   'normalize-path': [ '3.0.0' ],
+21 silly audit   'normalize-range': [ '0.1.2' ],
+21 silly audit   'normalize-url': [ '6.1.0' ],
+21 silly audit   'npm-run-path': [ '4.0.1' ],
+21 silly audit   'nth-check': [ '2.1.1', '1.0.2' ],
+21 silly audit   nwsapi: [ '2.2.2' ],
+21 silly audit   'object-assign': [ '4.1.1' ],
+21 silly audit   'object-hash': [ '3.0.0' ],
+21 silly audit   'object-inspect': [ '1.12.3' ],
+21 silly audit   'object-is': [ '1.1.5' ],
+21 silly audit   'object-keys': [ '1.1.1' ],
+21 silly audit   'object.assign': [ '4.1.4' ],
+21 silly audit   'object.entries': [ '1.1.6' ],
+21 silly audit   'object.fromentries': [ '2.0.6' ],
+21 silly audit   'object.getownpropertydescriptors': [ '2.1.5' ],
+21 silly audit   'object.hasown': [ '1.1.2' ],
+21 silly audit   'object.values': [ '1.1.6' ],
+21 silly audit   obuf: [ '1.1.2' ],
+21 silly audit   'on-finished': [ '2.4.1' ],
+21 silly audit   'on-headers': [ '1.0.2' ],
+21 silly audit   once: [ '1.4.0' ],
+21 silly audit   onetime: [ '5.1.2' ],
+21 silly audit   open: [ '8.4.1' ],
+21 silly audit   'p-retry': [ '4.6.2' ],
+21 silly audit   'p-try': [ '2.2.0' ],
+21 silly audit   'param-case': [ '3.0.4' ],
+21 silly audit   'parent-module': [ '1.0.1' ],
+21 silly audit   'parse-json': [ '5.2.0' ],
+21 silly audit   parse5: [ '6.0.1' ],
+21 silly audit   parseurl: [ '1.3.3' ],
+21 silly audit   'pascal-case': [ '3.1.2' ],
+21 silly audit   'path-exists': [ '4.0.0', '3.0.0' ],
+21 silly audit   'path-is-absolute': [ '1.0.1' ],
+21 silly audit   'path-key': [ '3.1.1' ],
+21 silly audit   'path-parse': [ '1.0.7' ],
+21 silly audit   'path-to-regexp': [ '0.1.7' ],
+21 silly audit   'path-type': [ '4.0.0' ],
+21 silly audit   'performance-now': [ '2.1.0' ],
+21 silly audit   picocolors: [ '1.0.0', '0.2.1' ],
+21 silly audit   picomatch: [ '2.3.1' ],
+21 silly audit   pify: [ '2.3.0' ],
+21 silly audit   pirates: [ '4.0.5' ],
+21 silly audit   'pkg-dir': [ '4.2.0' ],
+21 silly audit   'pkg-up': [ '3.1.0' ],
+21 silly audit   postcss: [ '8.4.21', '7.0.39' ],
+21 silly audit   'postcss-attribute-case-insensitive': [ '5.0.2' ],
+21 silly audit   'postcss-browser-comments': [ '4.0.0' ],
+21 silly audit   'postcss-calc': [ '8.2.4' ],
+21 silly audit   'postcss-clamp': [ '4.1.0' ],
+21 silly audit   'postcss-color-functional-notation': [ '4.2.4' ],
+21 silly audit   'postcss-color-hex-alpha': [ '8.0.4' ],
+21 silly audit   'postcss-color-rebeccapurple': [ '7.1.1' ],
+21 silly audit   'postcss-colormin': [ '5.3.1' ],
+21 silly audit   'postcss-convert-values': [ '5.1.3' ],
+21 silly audit   'postcss-custom-media': [ '8.0.2' ],
+21 silly audit   'postcss-custom-properties': [ '12.1.11' ],
+21 silly audit   'postcss-custom-selectors': [ '6.0.3' ],
+21 silly audit   'postcss-dir-pseudo-class': [ '6.0.5' ],
+21 silly audit   'postcss-discard-comments': [ '5.1.2' ],
+21 silly audit   'postcss-discard-duplicates': [ '5.1.0' ],
+21 silly audit   'postcss-discard-empty': [ '5.1.1' ],
+21 silly audit   'postcss-discard-overridden': [ '5.1.0' ],
+21 silly audit   'postcss-double-position-gradients': [ '3.1.2' ],
+21 silly audit   'postcss-env-function': [ '4.0.6' ],
+21 silly audit   'postcss-flexbugs-fixes': [ '5.0.2' ],
+21 silly audit   'postcss-focus-visible': [ '6.0.4' ],
+21 silly audit   'postcss-focus-within': [ '5.0.4' ],
+21 silly audit   'postcss-font-variant': [ '5.0.0' ],
+21 silly audit   'postcss-gap-properties': [ '3.0.5' ],
+21 silly audit   'postcss-image-set-function': [ '4.0.7' ],
+21 silly audit   'postcss-import': [ '14.1.0' ],
+21 silly audit   'postcss-initial': [ '4.0.1' ],
+21 silly audit   'postcss-js': [ '4.0.1' ],
+21 silly audit   'postcss-lab-function': [ '4.2.1' ],
+21 silly audit   'postcss-load-config': [ '3.1.4' ],
+21 silly audit   'postcss-loader': [ '6.2.1' ],
+21 silly audit   'postcss-logical': [ '5.0.4' ],
+21 silly audit   'postcss-media-minmax': [ '5.0.0' ],
+21 silly audit   'postcss-merge-longhand': [ '5.1.7' ],
+21 silly audit   'postcss-merge-rules': [ '5.1.4' ],
+21 silly audit   'postcss-minify-font-values': [ '5.1.0' ],
+21 silly audit   'postcss-minify-gradients': [ '5.1.1' ],
+21 silly audit   'postcss-minify-params': [ '5.1.4' ],
+21 silly audit   'postcss-minify-selectors': [ '5.2.1' ],
+21 silly audit   'postcss-modules-extract-imports': [ '3.0.0' ],
+21 silly audit   'postcss-modules-local-by-default': [ '4.0.0' ],
+21 silly audit   'postcss-modules-scope': [ '3.0.0' ],
+21 silly audit   'postcss-modules-values': [ '4.0.0' ],
+21 silly audit   'postcss-nested': [ '6.0.0' ],
+21 silly audit   'postcss-nesting': [ '10.2.0' ],
+21 silly audit   'postcss-normalize': [ '10.0.1' ],
+21 silly audit   'postcss-normalize-charset': [ '5.1.0' ],
+21 silly audit   'postcss-normalize-display-values': [ '5.1.0' ],
+21 silly audit   'postcss-normalize-positions': [ '5.1.1' ],
+21 silly audit   'postcss-normalize-repeat-style': [ '5.1.1' ],
+21 silly audit   'postcss-normalize-string': [ '5.1.0' ],
+21 silly audit   'postcss-normalize-timing-functions': [ '5.1.0' ],
+21 silly audit   'postcss-normalize-unicode': [ '5.1.1' ],
+21 silly audit   'postcss-normalize-url': [ '5.1.0' ],
+21 silly audit   'postcss-normalize-whitespace': [ '5.1.1' ],
+21 silly audit   'postcss-opacity-percentage': [ '1.1.3' ],
+21 silly audit   'postcss-ordered-values': [ '5.1.3' ],
+21 silly audit   'postcss-overflow-shorthand': [ '3.0.4' ],
+21 silly audit   'postcss-page-break': [ '3.0.4' ],
+21 silly audit   'postcss-place': [ '7.0.5' ],
+21 silly audit   'postcss-preset-env': [ '7.8.3' ],
+21 silly audit   'postcss-pseudo-class-any-link': [ '7.1.6' ],
+21 silly audit   'postcss-reduce-initial': [ '5.1.2' ],
+21 silly audit   'postcss-reduce-transforms': [ '5.1.0' ],
+21 silly audit   'postcss-replace-overflow-wrap': [ '4.0.0' ],
+21 silly audit   'postcss-selector-not': [ '6.0.1' ],
+21 silly audit   'postcss-selector-parser': [ '6.0.11' ],
+21 silly audit   'postcss-svgo': [ '5.1.0' ],
+21 silly audit   svgo: [ '2.8.0', '1.3.2' ],
+21 silly audit   'postcss-unique-selectors': [ '5.1.1' ],
+21 silly audit   'postcss-value-parser': [ '4.2.0' ],
+21 silly audit   prettier: [ '2.8.4' ],
+21 silly audit   'prettier-linter-helpers': [ '1.0.0' ],
+21 silly audit   'pretty-bytes': [ '5.6.0' ],
+21 silly audit   'pretty-error': [ '4.0.0' ],
+21 silly audit   'process-nextick-args': [ '2.0.1' ],
+21 silly audit   promise: [ '8.3.0' ],
+21 silly audit   prompts: [ '2.4.2' ],
+21 silly audit   'prop-types': [ '15.8.1' ],
+21 silly audit   'proxy-addr': [ '2.0.7' ],
+21 silly audit   psl: [ '1.9.0' ],
+21 silly audit   punycode: [ '2.3.0' ],
+21 silly audit   q: [ '1.5.1' ],
+21 silly audit   qs: [ '6.11.0' ],
+21 silly audit   querystringify: [ '2.2.0' ],
+21 silly audit   'queue-microtask': [ '1.2.3' ],
+21 silly audit   'quick-lru': [ '5.1.1' ],
+21 silly audit   raf: [ '3.4.1' ],
+21 silly audit   randombytes: [ '2.1.0' ],
+21 silly audit   'range-parser': [ '1.2.1' ],
+21 silly audit   'raw-body': [ '2.5.1' ],
+21 silly audit   react: [ '18.2.0' ],
+21 silly audit   'react-app-polyfill': [ '3.0.0' ],
+21 silly audit   'react-dev-utils': [ '12.0.1' ],
+21 silly audit   'react-dom': [ '18.2.0' ],
+21 silly audit   'react-error-overlay': [ '6.0.11' ],
+21 silly audit   'react-refresh': [ '0.11.0' ],
+21 silly audit   'react-scripts': [ '5.0.1' ],
+21 silly audit   'read-cache': [ '1.0.0' ],
+21 silly audit   readdirp: [ '3.6.0' ],
+21 silly audit   'recursive-readdir': [ '2.2.3' ],
+21 silly audit   redent: [ '3.0.0' ],
+21 silly audit   regenerate: [ '1.4.2' ],
+21 silly audit   'regenerate-unicode-properties': [ '10.1.0' ],
+21 silly audit   'regenerator-runtime': [ '0.13.11' ],
+21 silly audit   'regenerator-transform': [ '0.15.1' ],
+21 silly audit   'regex-parser': [ '2.2.11' ],
+21 silly audit   'regexp.prototype.flags': [ '1.4.3' ],
+21 silly audit   regexpp: [ '3.2.0' ],
+21 silly audit   'regexpu-core': [ '5.3.1' ],
+21 silly audit   regjsparser: [ '0.9.1' ],
+21 silly audit   relateurl: [ '0.2.7' ],
+21 silly audit   renderkid: [ '3.0.0' ],
+21 silly audit   'require-directory': [ '2.1.1' ],
+21 silly audit   'require-from-string': [ '2.0.2' ],
+21 silly audit   'requires-port': [ '1.0.0' ],
+21 silly audit   'resolve-cwd': [ '3.0.0' ],
+21 silly audit   'resolve-url-loader': [ '4.0.0' ],
+21 silly audit   'resolve.exports': [ '1.1.1' ],
+21 silly audit   retry: [ '0.13.1' ],
+21 silly audit   reusify: [ '1.0.4' ],
+21 silly audit   rimraf: [ '3.0.2' ],
+21 silly audit   rollup: [ '2.79.1' ],
+21 silly audit   'rollup-plugin-terser': [ '7.0.2' ],
+21 silly audit   'serialize-javascript': [ '4.0.0', '6.0.1' ],
+21 silly audit   'run-parallel': [ '1.2.0' ],
+21 silly audit   'safe-regex-test': [ '1.0.0' ],
+21 silly audit   'safer-buffer': [ '2.1.2' ],
+21 silly audit   'sanitize.css': [ '13.0.0' ],
+21 silly audit   'sass-loader': [ '12.6.0' ],
+21 silly audit   sax: [ '1.2.4' ],
+21 silly audit   saxes: [ '5.0.1' ],
+21 silly audit   scheduler: [ '0.23.0' ],
+21 silly audit   'select-hose': [ '2.0.0' ],
+21 silly audit   selfsigned: [ '2.1.1' ],
+21 silly audit   yallist: [ '4.0.0', '3.1.1' ],
+21 silly audit   send: [ '0.18.0' ],
+21 silly audit   'serve-index': [ '1.9.1' ],
+21 silly audit   setprototypeof: [ '1.1.0', '1.2.0' ],
+21 silly audit   statuses: [ '1.5.0', '2.0.1' ],
+21 silly audit   'serve-static': [ '1.15.0' ],
+21 silly audit   shallowequal: [ '1.1.0' ],
+21 silly audit   'shebang-command': [ '2.0.0' ],
+21 silly audit   'shebang-regex': [ '3.0.0' ],
+21 silly audit   'shell-quote': [ '1.8.0' ],
+21 silly audit   'side-channel': [ '1.0.4' ],
+21 silly audit   'signal-exit': [ '3.0.7' ],
+21 silly audit   sisteransi: [ '1.0.5' ],
+21 silly audit   sockjs: [ '0.3.24' ],
+21 silly audit   'source-list-map': [ '2.0.1' ],
+21 silly audit   'source-map-js': [ '1.0.2' ],
+21 silly audit   'source-map-loader': [ '3.0.2' ],
+21 silly audit   'source-map-support': [ '0.5.21' ],
+21 silly audit   'sourcemap-codec': [ '1.4.8' ],
+21 silly audit   spdy: [ '4.0.2' ],
+21 silly audit   'spdy-transport': [ '3.0.0' ],
+21 silly audit   'sprintf-js': [ '1.0.3' ],
+21 silly audit   stable: [ '0.1.8' ],
+21 silly audit   'stack-utils': [ '2.0.6' ],
+21 silly audit   stackframe: [ '1.3.4' ],
+21 silly audit   'stop-iteration-iterator': [ '1.0.0' ],
+21 silly audit   'string-natural-compare': [ '3.0.1' ],
+21 silly audit   'string-width': [ '4.2.3' ],
+21 silly audit   'string.prototype.matchall': [ '4.0.8' ],
+21 silly audit   'string.prototype.trimend': [ '1.0.6' ],
+21 silly audit   'string.prototype.trimstart': [ '1.0.6' ],
+21 silly audit   'stringify-object': [ '3.3.0' ],
+21 silly audit   'strip-bom': [ '4.0.0', '3.0.0' ],
+21 silly audit   'strip-comments': [ '2.0.1' ],
+21 silly audit   'strip-final-newline': [ '2.0.0' ],
+21 silly audit   'strip-indent': [ '3.0.0' ],
+21 silly audit   'strip-json-comments': [ '3.1.1' ],
+21 silly audit   'style-loader': [ '3.3.1' ],
+21 silly audit   'styled-components': [ '5.3.11' ],
+21 silly audit   stylehacks: [ '5.1.1' ],
+21 silly audit   'supports-hyperlinks': [ '2.3.0' ],
+21 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+21 silly audit   'svg-parser': [ '2.0.4' ],
+21 silly audit   'symbol-tree': [ '3.2.4' ],
+21 silly audit   tailwindcss: [ '3.2.7' ],
+21 silly audit   'temp-dir': [ '2.0.0' ],
+21 silly audit   tempy: [ '0.6.0' ],
+21 silly audit   'terminal-link': [ '2.1.1' ],
+21 silly audit   terser: [ '5.16.4' ],
+21 silly audit   'terser-webpack-plugin': [ '5.3.6' ],
+21 silly audit   'test-exclude': [ '6.0.0' ],
+21 silly audit   'text-table': [ '0.2.0' ],
+21 silly audit   throat: [ '6.0.2' ],
+21 silly audit   thunky: [ '1.1.0' ],
+21 silly audit   tmpl: [ '1.0.5' ],
+21 silly audit   'to-fast-properties': [ '2.0.0' ],
+21 silly audit   'to-regex-range': [ '5.0.1' ],
+21 silly audit   toidentifier: [ '1.0.1' ],
+21 silly audit   'tough-cookie': [ '4.1.2' ],
+21 silly audit   universalify: [ '0.2.0', '2.0.0' ],
+21 silly audit   tr46: [ '2.1.0', '1.0.1' ],
+21 silly audit   tryer: [ '1.0.1' ],
+21 silly audit   'tsconfig-paths': [ '3.14.1' ],
+21 silly audit   tslib: [ '2.5.0', '1.14.1' ],
+21 silly audit   tsutils: [ '3.21.0' ],
+21 silly audit   'type-detect': [ '4.0.8' ],
+21 silly audit   'type-is': [ '1.6.18' ],
+21 silly audit   'typed-array-length': [ '1.0.4' ],
+21 silly audit   'typedarray-to-buffer': [ '3.1.5' ],
+21 silly audit   typescript: [ '4.9.5' ],
+21 silly audit   'unbox-primitive': [ '1.0.2' ],
+21 silly audit   'unicode-canonical-property-names-ecmascript': [ '2.0.0' ],
+21 silly audit   'unicode-match-property-ecmascript': [ '2.0.0' ],
+21 silly audit   'unicode-match-property-value-ecmascript': [ '2.1.0' ],
+21 silly audit   'unicode-property-aliases-ecmascript': [ '2.1.0' ],
+21 silly audit   'unique-string': [ '2.0.0' ],
+21 silly audit   unpipe: [ '1.0.0' ],
+21 silly audit   unquote: [ '1.1.1' ],
+21 silly audit   upath: [ '1.2.0' ],
+21 silly audit   'update-browserslist-db': [ '1.0.10' ],
+21 silly audit   'uri-js': [ '4.4.1' ],
+21 silly audit   'url-parse': [ '1.5.10' ],
+21 silly audit   'util-deprecate': [ '1.0.2' ],
+21 silly audit   'util.promisify': [ '1.0.1' ],
+21 silly audit   utila: [ '0.4.0' ],
+21 silly audit   'utils-merge': [ '1.0.1' ],
+21 silly audit   uuid: [ '8.3.2' ],
+21 silly audit   'v8-to-istanbul': [ '8.1.1' ],
+21 silly audit   vary: [ '1.1.2' ],
+21 silly audit   'w3c-hr-time': [ '1.0.2' ],
+21 silly audit   'w3c-xmlserializer': [ '2.0.0' ],
+21 silly audit   walker: [ '1.0.8' ],
+21 silly audit   watchpack: [ '2.4.0' ],
+21 silly audit   wbuf: [ '1.7.3' ],
+21 silly audit   'web-vitals': [ '2.1.4' ],
+21 silly audit   webpack: [ '5.75.0' ],
+21 silly audit   'webpack-dev-middleware': [ '5.3.3' ],
+21 silly audit   'webpack-dev-server': [ '4.11.1' ],
+21 silly audit   ws: [ '8.12.1', '7.5.9' ],
+21 silly audit   'webpack-manifest-plugin': [ '4.1.1' ],
+21 silly audit   'webpack-sources': [ '2.3.1', '3.2.3', '1.4.3' ],
+21 silly audit   'websocket-driver': [ '0.7.4' ],
+21 silly audit   'websocket-extensions': [ '0.1.4' ],
+21 silly audit   'whatwg-encoding': [ '1.0.5' ],
+21 silly audit   'whatwg-fetch': [ '3.6.2' ],
+21 silly audit   'whatwg-mimetype': [ '2.3.0' ],
+21 silly audit   'whatwg-url': [ '8.7.0', '7.1.0' ],
+21 silly audit   'which-boxed-primitive': [ '1.0.2' ],
+21 silly audit   'which-collection': [ '1.0.1' ],
+21 silly audit   'which-typed-array': [ '1.1.9' ],
+21 silly audit   'word-wrap': [ '1.2.3' ],
+21 silly audit   'workbox-background-sync': [ '6.5.4' ],
+21 silly audit   'workbox-broadcast-update': [ '6.5.4' ],
+21 silly audit   'workbox-build': [ '6.5.4' ],
+21 silly audit   '@apideck/better-ajv-errors': [ '0.3.6' ],
+21 silly audit   'workbox-cacheable-response': [ '6.5.4' ],
+21 silly audit   'workbox-core': [ '6.5.4' ],
+21 silly audit   'workbox-expiration': [ '6.5.4' ],
+21 silly audit   'workbox-google-analytics': [ '6.5.4' ],
+21 silly audit   'workbox-navigation-preload': [ '6.5.4' ],
+21 silly audit   'workbox-precaching': [ '6.5.4' ],
+21 silly audit   'workbox-range-requests': [ '6.5.4' ],
+21 silly audit   'workbox-recipes': [ '6.5.4' ],
+21 silly audit   'workbox-routing': [ '6.5.4' ],
+21 silly audit   'workbox-strategies': [ '6.5.4' ],
+21 silly audit   'workbox-streams': [ '6.5.4' ],
+21 silly audit   'workbox-sw': [ '6.5.4' ],
+21 silly audit   'workbox-webpack-plugin': [ '6.5.4' ],
+21 silly audit   'workbox-window': [ '6.5.4' ],
+21 silly audit   'wrap-ansi': [ '7.0.0' ],
+21 silly audit   wrappy: [ '1.0.2' ],
+21 silly audit   'write-file-atomic': [ '3.0.3' ],
+21 silly audit   'xml-name-validator': [ '3.0.0' ],
+21 silly audit   xmlchars: [ '2.2.0' ],
+21 silly audit   xtend: [ '4.0.2' ],
+21 silly audit   y18n: [ '5.0.8' ],
+21 silly audit   yaml: [ '1.10.2' ],
+21 silly audit   yargs: [ '16.2.0' ],
+21 silly audit   'yargs-parser': [ '20.2.9' ],
+21 silly audit   'yocto-queue': [ '0.1.0' ],
+21 silly audit   '@types/styled-components': [ '5.1.34' ]
+21 silly audit }
+22 verbose reify failed optional dependency C:\Users\Usuário\Documents\EBAC\python\Introdução ao CSS in JS com React\exercicio-\exercicio-fork\base_exercicio_css_in_js\node_modules\fsevents
+23 silly reify mark deleted [
+23 silly reify   'C:\\Users\\Usuário\\Documents\\EBAC\\python\\Introdução ao CSS in JS com React\\exercicio-\\exercicio-fork\\base_exercicio_css_in_js\\node_modules\\fsevents'
+23 silly reify ]
+24 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 863ms
+25 silly audit report {
+25 silly audit report   '@adobe/css-tools': [
+25 silly audit report     {
+25 silly audit report       id: 1094900,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-hpx4-r86g-5jrg',
+25 silly audit report       title: '@adobe/css-tools Regular Expression Denial of Service (ReDOS) while Parsing CSS',
+25 silly audit report       severity: 'moderate',
+25 silly audit report       vulnerable_versions: '<4.3.1',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     },
+25 silly audit report     {
+25 silly audit report       id: 1095241,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-prr3-c3m5-p7q2',
+25 silly audit report       title: '@adobe/css-tools Improper Input Validation and Inefficient Regular Expression Complexity',
+25 silly audit report       severity: 'moderate',
+25 silly audit report       vulnerable_versions: '<4.3.2',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ],
+25 silly audit report   semver: [
+25 silly audit report     {
+25 silly audit report       id: 1101088,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-c2qf-rxjj-qqgw',
+25 silly audit report       title: 'semver vulnerable to Regular Expression Denial of Service',
+25 silly audit report       severity: 'high',
+25 silly audit report       vulnerable_versions: '>=7.0.0 <7.5.2',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     },
+25 silly audit report     {
+25 silly audit report       id: 1101090,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-c2qf-rxjj-qqgw',
+25 silly audit report       title: 'semver vulnerable to Regular Expression Denial of Service',
+25 silly audit report       severity: 'high',
+25 silly audit report       vulnerable_versions: '>=6.0.0 <6.3.1',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ],
+25 silly audit report   '@babel/helpers': [
+25 silly audit report     {
+25 silly audit report       id: 1104001,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-968p-4wvh-cqc8',
+25 silly audit report       title: 'Babel has inefficient RegExp complexity in generated code with .replace when transpiling named capturing groups',
+25 silly audit report       severity: 'moderate',
+25 silly audit report       vulnerable_versions: '<7.26.10',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ],
+25 silly audit report   '@babel/runtime': [
+25 silly audit report     {
+25 silly audit report       id: 1104000,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-968p-4wvh-cqc8',
+25 silly audit report       title: 'Babel has inefficient RegExp complexity in generated code with .replace when transpiling named capturing groups',
+25 silly audit report       severity: 'moderate',
+25 silly audit report       vulnerable_versions: '<7.26.10',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ],
+25 silly audit report   '@babel/traverse': [
+25 silly audit report     {
+25 silly audit report       id: 1096886,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-67hx-6x53-jw92',
+25 silly audit report       title: 'Babel vulnerable to arbitrary code execution when compiling specifically crafted malicious code',
+25 silly audit report       severity: 'critical',
+25 silly audit report       vulnerable_versions: '<7.23.2',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ],
+25 silly audit report   'body-parser': [
+25 silly audit report     {
+25 silly audit report       id: 1099520,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-qwcr-r2fm-qrc7',
+25 silly audit report       title: 'body-parser vulnerable to denial of service when url encoding is enabled',
+25 silly audit report       severity: 'high',
+25 silly audit report       vulnerable_versions: '<1.20.3',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ],
+25 silly audit report   braces: [
+25 silly audit report     {
+25 silly audit report       id: 1098094,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-grv7-fg5c-xmjg',
+25 silly audit report       title: 'Uncontrolled resource consumption in braces',
+25 silly audit report       severity: 'high',
+25 silly audit report       vulnerable_versions: '<3.0.3',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ],
+25 silly audit report   cookie: [
+25 silly audit report     {
+25 silly audit report       id: 1103907,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-pxg6-pf52-xh8x',
+25 silly audit report       title: 'cookie accepts cookie name, path, and domain with out of bounds characters',
+25 silly audit report       severity: 'low',
+25 silly audit report       vulnerable_versions: '<0.7.0',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ],
+25 silly audit report   'cross-spawn': [
+25 silly audit report     {
+25 silly audit report       id: 1104664,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-3xgq-45jj-v275',
+25 silly audit report       title: 'Regular Expression Denial of Service (ReDoS) in cross-spawn',
+25 silly audit report       severity: 'high',
+25 silly audit report       vulnerable_versions: '>=7.0.0 <7.0.5',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ],
+25 silly audit report   ejs: [
+25 silly audit report     {
+25 silly audit report       id: 1098366,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-ghr5-ch3p-vcr6',
+25 silly audit report       title: 'ejs lacks certain pollution protection',
+25 silly audit report       severity: 'moderate',
+25 silly audit report       vulnerable_versions: '<3.1.10',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ],
+25 silly audit report   express: [
+25 silly audit report     {
+25 silly audit report       id: 1100530,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-qw6h-vgh9-j6wx',
+25 silly audit report       title: 'express vulnerable to XSS via response.redirect()',
+25 silly audit report       severity: 'low',
+25 silly audit report       vulnerable_versions: '<4.20.0',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     },
+25 silly audit report     {
+25 silly audit report       id: 1096820,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-rv95-896h-c2vc',
+25 silly audit report       title: 'Express.js Open Redirect in malformed URLs',
+25 silly audit report       severity: 'moderate',
+25 silly audit report       vulnerable_versions: '<4.19.2',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ],
+25 silly audit report   'follow-redirects': [
+25 silly audit report     {
+25 silly audit report       id: 1096856,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-cxjh-pqwp-8mfp',
+25 silly audit report       title: "follow-redirects' Proxy-Authorization header kept across hosts",
+25 silly audit report       severity: 'moderate',
+25 silly audit report       vulnerable_versions: '<=1.15.5',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     },
+25 silly audit report     {
+25 silly audit report       id: 1096353,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-jchw-25xp-jwwc',
+25 silly audit report       title: 'Follow Redirects improperly handles URLs in the url.parse() function',
+25 silly audit report       severity: 'moderate',
+25 silly audit report       vulnerable_versions: '<1.15.4',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ],
+25 silly audit report   'http-proxy-middleware': [
+25 silly audit report     {
+25 silly audit report       id: 1100223,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-c7qv-q95q-8v27',
+25 silly audit report       title: 'Denial of service in http-proxy-middleware',
+25 silly audit report       severity: 'high',
+25 silly audit report       vulnerable_versions: '<2.0.7',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     },
+25 silly audit report     {
+25 silly audit report       id: 1104105,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-9gqv-wp59-fq42',
+25 silly audit report       title: 'http-proxy-middleware allows fixRequestBody to proceed even if bodyParser has failed',
+25 silly audit report       severity: 'moderate',
+25 silly audit report       vulnerable_versions: '>=1.3.0 <2.0.9',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     },
+25 silly audit report     {
+25 silly audit report       id: 1104106,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-4www-5p9h-95mh',
+25 silly audit report       title: 'http-proxy-middleware can call writeBody twice because "else if" is not used',
+25 silly audit report       severity: 'moderate',
+25 silly audit report       vulnerable_versions: '>=1.3.0 <2.0.8',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ],
+25 silly audit report   micromatch: [
+25 silly audit report     {
+25 silly audit report       id: 1098681,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-952p-6rrq-rcjv',
+25 silly audit report       title: 'Regular Expression Denial of Service (ReDoS) in micromatch',
+25 silly audit report       severity: 'moderate',
+25 silly audit report       vulnerable_versions: '<4.0.8',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ],
+25 silly audit report   nanoid: [
+25 silly audit report     {
+25 silly audit report       id: 1101163,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-mwcw-c2x4-8c55',
+25 silly audit report       title: 'Predictable results in nanoid generation when given non-integer values',
+25 silly audit report       severity: 'moderate',
+25 silly audit report       vulnerable_versions: '<3.3.8',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ],
+25 silly audit report   'nth-check': [
+25 silly audit report     {
+25 silly audit report       id: 1095141,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-rp65-9cf3-cjxr',
+25 silly audit report       title: 'Inefficient Regular Expression Complexity in nth-check',
+25 silly audit report       severity: 'high',
+25 silly audit report       vulnerable_versions: '<2.0.1',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ],
+25 silly audit report   'path-to-regexp': [
+25 silly audit report     {
+25 silly audit report       id: 1101850,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-9wv6-86v2-598j',
+25 silly audit report       title: 'path-to-regexp outputs backtracking regular expressions',
+25 silly audit report       severity: 'high',
+25 silly audit report       vulnerable_versions: '<0.1.10',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     },
+25 silly audit report     {
+25 silly audit report       id: 1105199,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-rhx6-c78j-4q9w',
+25 silly audit report       title: 'path-to-regexp contains a ReDoS',
+25 silly audit report       severity: 'high',
+25 silly audit report       vulnerable_versions: '<0.1.12',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ],
+25 silly audit report   postcss: [
+25 silly audit report     {
+25 silly audit report       id: 1094544,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-7fh5-64p2-3v2j',
+25 silly audit report       title: 'PostCSS line return parsing error',
+25 silly audit report       severity: 'moderate',
+25 silly audit report       vulnerable_versions: '<8.4.31',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ],
+25 silly audit report   rollup: [
+25 silly audit report     {
+25 silly audit report       id: 1099757,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-gcx4-mw62-g8wm',
+25 silly audit report       title: 'DOM Clobbering Gadget found in rollup bundled scripts that leads to XSS',
+25 silly audit report       severity: 'high',
+25 silly audit report       vulnerable_versions: '<2.79.2',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ],
+25 silly audit report   'serialize-javascript': [
+25 silly audit report     {
+25 silly audit report       id: 1105258,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-76p7-773f-r4q5',
+25 silly audit report       title: 'Cross-site Scripting (XSS) in serialize-javascript',
+25 silly audit report       severity: 'moderate',
+25 silly audit report       vulnerable_versions: '>=6.0.0 <6.0.2',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ],
+25 silly audit report   send: [
+25 silly audit report     {
+25 silly audit report       id: 1100526,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-m6fv-jmcg-4jfg',
+25 silly audit report       title: 'send vulnerable to template injection that can lead to XSS',
+25 silly audit report       severity: 'low',
+25 silly audit report       vulnerable_versions: '<0.19.0',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ],
+25 silly audit report   'serve-static': [
+25 silly audit report     {
+25 silly audit report       id: 1100528,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-cm22-4g7w-348p',
+25 silly audit report       title: 'serve-static vulnerable to template injection that can lead to XSS',
+25 silly audit report       severity: 'low',
+25 silly audit report       vulnerable_versions: '<1.16.0',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ],
+25 silly audit report   'tough-cookie': [
+25 silly audit report     {
+25 silly audit report       id: 1097682,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-72xf-g2v4-qvf3',
+25 silly audit report       title: 'tough-cookie Prototype Pollution vulnerability',
+25 silly audit report       severity: 'moderate',
+25 silly audit report       vulnerable_versions: '<4.1.3',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ],
+25 silly audit report   webpack: [
+25 silly audit report     {
+25 silly audit report       id: 1094471,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-hc6q-2mpp-qw7j',
+25 silly audit report       title: 'Cross-realm object access in Webpack 5',
+25 silly audit report       severity: 'critical',
+25 silly audit report       vulnerable_versions: '>=5.0.0 <5.76.0',
+25 silly audit report       cwe: [],
+25 silly audit report       cvss: [Object]
+25 silly audit report     },
+25 silly audit report     {
+25 silly audit report       id: 1099351,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-4vvj-4cpr-p986',
+25 silly audit report       title: "Webpack's AutoPublicPathRuntimeModule has a DOM Clobbering Gadget that leads to XSS",
+25 silly audit report       severity: 'moderate',
+25 silly audit report       vulnerable_versions: '>=5.0.0-alpha.0 <5.94.0',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ],
+25 silly audit report   'webpack-dev-middleware': [
+25 silly audit report     {
+25 silly audit report       id: 1096729,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-wr3j-pwj9-hqq6',
+25 silly audit report       title: 'Path traversal in webpack-dev-middleware',
+25 silly audit report       severity: 'high',
+25 silly audit report       vulnerable_versions: '<=5.3.3',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ],
+25 silly audit report   'webpack-dev-server': [
+25 silly audit report     {
+25 silly audit report       id: 1105256,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-9jgg-88mc-972h',
+25 silly audit report       title: "webpack-dev-server users' source code may be stolen when they access a malicious web site with non-Chromium based browser",
+25 silly audit report       severity: 'moderate',
+25 silly audit report       vulnerable_versions: '<=5.2.0',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     },
+25 silly audit report     {
+25 silly audit report       id: 1105257,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-4v9v-hfq4-rm2v',
+25 silly audit report       title: "webpack-dev-server users' source code may be stolen when they access a malicious web site",
+25 silly audit report       severity: 'moderate',
+25 silly audit report       vulnerable_versions: '<=5.2.0',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ],
+25 silly audit report   ws: [
+25 silly audit report     {
+25 silly audit report       id: 1098393,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-3h5v-q93c-6h6q',
+25 silly audit report       title: 'ws affected by a DoS when handling a request with many HTTP headers',
+25 silly audit report       severity: 'high',
+25 silly audit report       vulnerable_versions: '>=7.0.0 <7.5.10',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     },
+25 silly audit report     {
+25 silly audit report       id: 1098392,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-3h5v-q93c-6h6q',
+25 silly audit report       title: 'ws affected by a DoS when handling a request with many HTTP headers',
+25 silly audit report       severity: 'high',
+25 silly audit report       vulnerable_versions: '>=8.0.0 <8.17.1',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ],
+25 silly audit report   'word-wrap': [
+25 silly audit report     {
+25 silly audit report       id: 1102444,
+25 silly audit report       url: 'https://github.com/advisories/GHSA-j8xg-fqg3-53r7',
+25 silly audit report       title: 'word-wrap vulnerable to Regular Expression Denial of Service',
+25 silly audit report       severity: 'moderate',
+25 silly audit report       vulnerable_versions: '<1.2.4',
+25 silly audit report       cwe: [Array],
+25 silly audit report       cvss: [Object]
+25 silly audit report     }
+25 silly audit report   ]
+25 silly audit report }
+26 silly packumentCache corgi:https://registry.npmjs.org/@adobe%2fcss-tools cache-miss
+27 silly packumentCache corgi:https://registry.npmjs.org/semver cache-miss
+28 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fhelpers cache-miss
+29 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fruntime cache-miss
+30 silly packumentCache corgi:https://registry.npmjs.org/@babel%2ftraverse cache-miss
+31 silly packumentCache corgi:https://registry.npmjs.org/body-parser cache-miss
+32 silly packumentCache corgi:https://registry.npmjs.org/braces cache-miss
+33 silly packumentCache corgi:https://registry.npmjs.org/cookie cache-miss
+34 silly packumentCache corgi:https://registry.npmjs.org/cross-spawn cache-miss
+35 silly packumentCache corgi:https://registry.npmjs.org/ejs cache-miss
+36 silly packumentCache corgi:https://registry.npmjs.org/express cache-miss
+37 silly packumentCache corgi:https://registry.npmjs.org/follow-redirects cache-miss
+38 silly packumentCache corgi:https://registry.npmjs.org/http-proxy-middleware cache-miss
+39 silly packumentCache corgi:https://registry.npmjs.org/micromatch cache-miss
+40 silly packumentCache corgi:https://registry.npmjs.org/nanoid cache-miss
+41 silly packumentCache corgi:https://registry.npmjs.org/nth-check cache-miss
+42 silly packumentCache corgi:https://registry.npmjs.org/path-to-regexp cache-miss
+43 silly packumentCache corgi:https://registry.npmjs.org/postcss cache-miss
+44 silly packumentCache corgi:https://registry.npmjs.org/rollup cache-miss
+45 silly packumentCache corgi:https://registry.npmjs.org/serialize-javascript cache-miss
+46 silly packumentCache corgi:https://registry.npmjs.org/send cache-miss
+47 silly packumentCache corgi:https://registry.npmjs.org/serve-static cache-miss
+48 silly packumentCache corgi:https://registry.npmjs.org/tough-cookie cache-miss
+49 silly packumentCache corgi:https://registry.npmjs.org/webpack cache-miss
+50 silly packumentCache corgi:https://registry.npmjs.org/webpack-dev-middleware cache-miss
+51 silly packumentCache corgi:https://registry.npmjs.org/webpack-dev-server cache-miss
+52 silly packumentCache corgi:https://registry.npmjs.org/ws cache-miss
+53 silly packumentCache corgi:https://registry.npmjs.org/word-wrap cache-miss
+54 http cache https://registry.npmjs.org/@adobe%2fcss-tools 74ms (cache hit)
+55 silly packumentCache corgi:https://registry.npmjs.org/@adobe%2fcss-tools set size:27741 disposed:false
+56 http cache https://registry.npmjs.org/@babel%2fhelpers 75ms (cache hit)
+57 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fhelpers set size:197076 disposed:false
+58 http cache https://registry.npmjs.org/semver 79ms (cache hit)
+59 silly packumentCache corgi:https://registry.npmjs.org/semver set size:94787 disposed:false
+60 http cache https://registry.npmjs.org/braces 78ms (cache hit)
+61 silly packumentCache corgi:https://registry.npmjs.org/braces set size:35919 disposed:false
+62 http cache https://registry.npmjs.org/cookie 78ms (cache hit)
+63 silly packumentCache corgi:https://registry.npmjs.org/cookie set size:22175 disposed:false
+64 http cache https://registry.npmjs.org/@babel%2fruntime 81ms (cache hit)
+65 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fruntime set size:214918 disposed:false
+66 http cache https://registry.npmjs.org/express 80ms (cache hit)
+67 silly packumentCache corgi:https://registry.npmjs.org/express set size:322362 disposed:false
+68 http cache https://registry.npmjs.org/body-parser 88ms (cache hit)
+69 silly packumentCache corgi:https://registry.npmjs.org/body-parser set size:74404 disposed:false
+70 http cache https://registry.npmjs.org/@babel%2ftraverse 91ms (cache hit)
+71 silly packumentCache corgi:https://registry.npmjs.org/@babel%2ftraverse set size:285000 disposed:false
+72 http cache https://registry.npmjs.org/follow-redirects 93ms (cache hit)
+73 silly packumentCache corgi:https://registry.npmjs.org/follow-redirects set size:85992 disposed:false
+74 http cache https://registry.npmjs.org/nanoid 94ms (cache hit)
+75 silly packumentCache corgi:https://registry.npmjs.org/nanoid set size:143800 disposed:false
+76 http cache https://registry.npmjs.org/cross-spawn 98ms (cache hit)
+77 silly packumentCache corgi:https://registry.npmjs.org/cross-spawn set size:44626 disposed:false
+78 http cache https://registry.npmjs.org/nth-check 97ms (cache hit)
+79 silly packumentCache corgi:https://registry.npmjs.org/nth-check set size:10078 disposed:false
+80 http cache https://registry.npmjs.org/ejs 99ms (cache hit)
+81 silly packumentCache corgi:https://registry.npmjs.org/ejs set size:64208 disposed:false
+82 http cache https://registry.npmjs.org/path-to-regexp 97ms (cache hit)
+83 silly packumentCache corgi:https://registry.npmjs.org/path-to-regexp set size:62557 disposed:false
+84 http cache https://registry.npmjs.org/http-proxy-middleware 101ms (cache hit)
+85 silly packumentCache corgi:https://registry.npmjs.org/http-proxy-middleware set size:146277 disposed:false
+86 http cache https://registry.npmjs.org/micromatch 102ms (cache hit)
+87 silly packumentCache corgi:https://registry.npmjs.org/micromatch set size:71776 disposed:false
+88 http cache https://registry.npmjs.org/serve-static 101ms (cache hit)
+89 silly packumentCache corgi:https://registry.npmjs.org/serve-static set size:56254 disposed:false
+90 http cache https://registry.npmjs.org/postcss 103ms (cache hit)
+91 silly packumentCache corgi:https://registry.npmjs.org/postcss set size:335447 disposed:false
+92 http cache https://registry.npmjs.org/serialize-javascript 106ms (cache hit)
+93 silly packumentCache corgi:https://registry.npmjs.org/serialize-javascript set size:31981 disposed:false
+94 http cache https://registry.npmjs.org/tough-cookie 106ms (cache hit)
+95 silly packumentCache corgi:https://registry.npmjs.org/tough-cookie set size:51605 disposed:false
+96 http cache https://registry.npmjs.org/send 107ms (cache hit)
+97 silly packumentCache corgi:https://registry.npmjs.org/send set size:60926 disposed:false
+98 http cache https://registry.npmjs.org/webpack-dev-middleware 107ms (cache hit)
+99 silly packumentCache corgi:https://registry.npmjs.org/webpack-dev-middleware set size:163343 disposed:false
+100 http cache https://registry.npmjs.org/ws 109ms (cache hit)
+101 silly packumentCache corgi:https://registry.npmjs.org/ws set size:192459 disposed:false
+102 http cache https://registry.npmjs.org/webpack 114ms (cache hit)
+103 silly packumentCache corgi:https://registry.npmjs.org/webpack set size:1939551 disposed:false
+104 http cache https://registry.npmjs.org/rollup 143ms (cache hit)
+105 silly packumentCache corgi:https://registry.npmjs.org/rollup set size:2336327 disposed:false
+106 http cache https://registry.npmjs.org/webpack-dev-server 161ms (cache hit)
+107 silly packumentCache corgi:https://registry.npmjs.org/webpack-dev-server set size:455204 disposed:false
+108 http cache https://registry.npmjs.org/word-wrap 167ms (cache hit)
+109 silly packumentCache corgi:https://registry.npmjs.org/word-wrap set size:9507 disposed:false
+110 silly packumentCache corgi:https://registry.npmjs.org/@testing-library%2fjest-dom cache-miss
+111 http cache https://registry.npmjs.org/@testing-library%2fjest-dom 7ms (cache hit)
+112 silly packumentCache corgi:https://registry.npmjs.org/@testing-library%2fjest-dom set size:129498 disposed:false
+113 silly packumentCache corgi:https://registry.npmjs.org/@typescript-eslint%2feslint-plugin cache-miss
+114 silly packumentCache corgi:https://registry.npmjs.org/@typescript-eslint%2ftypescript-estree cache-miss
+115 silly packumentCache corgi:https://registry.npmjs.org/@typescript-eslint%2futils cache-miss
+116 silly packumentCache corgi:https://registry.npmjs.org/css-loader cache-miss
+117 silly packumentCache corgi:https://registry.npmjs.org/fork-ts-checker-webpack-plugin cache-miss
+118 silly packumentCache corgi:https://registry.npmjs.org/jest-snapshot cache-miss
+119 silly packumentCache corgi:https://registry.npmjs.org/postcss-loader cache-miss
+120 silly packumentCache corgi:https://registry.npmjs.org/react-scripts cache-miss
+121 http cache https://registry.npmjs.org/jest-snapshot 28ms (cache hit)
+122 silly packumentCache corgi:https://registry.npmjs.org/jest-snapshot set size:449916 disposed:false
+123 http cache https://registry.npmjs.org/fork-ts-checker-webpack-plugin 36ms (cache hit)
+124 silly packumentCache corgi:https://registry.npmjs.org/fork-ts-checker-webpack-plugin set size:592540 disposed:false
+125 http cache https://registry.npmjs.org/css-loader 41ms (cache hit)
+126 silly packumentCache corgi:https://registry.npmjs.org/css-loader set size:239472 disposed:false
+127 http cache https://registry.npmjs.org/@typescript-eslint%2futils 50ms (cache hit)
+128 silly packumentCache corgi:https://registry.npmjs.org/@typescript-eslint%2futils set size:4100765 disposed:false
+129 http cache https://registry.npmjs.org/@typescript-eslint%2ftypescript-estree 101ms (cache hit)
+130 silly packumentCache corgi:https://registry.npmjs.org/@typescript-eslint%2ftypescript-estree set size:8022177 disposed:false
+131 http cache https://registry.npmjs.org/@typescript-eslint%2feslint-plugin 211ms (cache hit)
+132 silly packumentCache corgi:https://registry.npmjs.org/@typescript-eslint%2feslint-plugin set size:8720459 disposed:false
+133 http cache https://registry.npmjs.org/postcss-loader 321ms (cache hit)
+134 silly packumentCache corgi:https://registry.npmjs.org/postcss-loader set size:130393 disposed:false
+135 http cache https://registry.npmjs.org/react-scripts 324ms (cache hit)
+136 silly packumentCache corgi:https://registry.npmjs.org/react-scripts set size:342451 disposed:false
+137 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fcore cache-miss
+138 silly packumentCache corgi:https://registry.npmjs.org/@babel%2feslint-parser cache-miss
+139 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fhelper-compilation-targets cache-miss
+140 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fhelper-define-polyfill-provider cache-miss
+141 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fplugin-transform-runtime cache-miss
+142 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fpreset-env cache-miss
+143 silly packumentCache corgi:https://registry.npmjs.org/babel-plugin-polyfill-corejs2 cache-miss
+144 silly packumentCache corgi:https://registry.npmjs.org/eslint-plugin-import cache-miss
+145 silly packumentCache corgi:https://registry.npmjs.org/eslint-plugin-jsx-a11y cache-miss
+146 silly packumentCache corgi:https://registry.npmjs.org/eslint-plugin-react cache-miss
+147 silly packumentCache corgi:https://registry.npmjs.org/istanbul-lib-instrument cache-miss
+148 silly packumentCache corgi:https://registry.npmjs.org/make-dir cache-miss
+149 http cache https://registry.npmjs.org/@babel%2feslint-parser 30ms (cache hit)
+150 silly packumentCache corgi:https://registry.npmjs.org/@babel%2feslint-parser set size:105772 disposed:false
+151 http cache https://registry.npmjs.org/@babel%2fhelper-compilation-targets 32ms (cache hit)
+152 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fhelper-compilation-targets set size:115712 disposed:false
+153 http cache https://registry.npmjs.org/@babel%2fhelper-define-polyfill-provider 32ms (cache hit)
+154 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fhelper-define-polyfill-provider set size:54747 disposed:false
+155 http cache https://registry.npmjs.org/@babel%2fplugin-transform-runtime 33ms (cache hit)
+156 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fplugin-transform-runtime set size:237357 disposed:false
+157 http cache https://registry.npmjs.org/eslint-plugin-import 35ms (cache hit)
+158 silly packumentCache corgi:https://registry.npmjs.org/eslint-plugin-import set size:235632 disposed:false
+159 http cache https://registry.npmjs.org/@babel%2fcore 42ms (cache hit)
+160 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fcore set size:386965 disposed:false
+161 http cache https://registry.npmjs.org/babel-plugin-polyfill-corejs2 46ms (cache hit)
+162 silly packumentCache corgi:https://registry.npmjs.org/babel-plugin-polyfill-corejs2 set size:63206 disposed:false
+163 http cache https://registry.npmjs.org/@babel%2fpreset-env 50ms (cache hit)
+164 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fpreset-env set size:865966 disposed:false
+165 http cache https://registry.npmjs.org/eslint-plugin-jsx-a11y 57ms (cache hit)
+166 silly packumentCache corgi:https://registry.npmjs.org/eslint-plugin-jsx-a11y set size:108835 disposed:false
+167 http cache https://registry.npmjs.org/eslint-plugin-react 59ms (cache hit)
+168 silly packumentCache corgi:https://registry.npmjs.org/eslint-plugin-react set size:309843 disposed:false
+169 http cache https://registry.npmjs.org/istanbul-lib-instrument 61ms (cache hit)
+170 silly packumentCache corgi:https://registry.npmjs.org/istanbul-lib-instrument set size:100602 disposed:false
+171 http cache https://registry.npmjs.org/make-dir 62ms (cache hit)
+172 silly packumentCache corgi:https://registry.npmjs.org/make-dir set size:15624 disposed:false
+173 silly packumentCache corgi:https://registry.npmjs.org/@testing-library%2fdom cache-miss
+174 silly packumentCache corgi:https://registry.npmjs.org/@testing-library%2freact cache-miss
+175 silly packumentCache corgi:https://registry.npmjs.org/@testing-library%2fuser-event cache-miss
+176 silly packumentCache corgi:https://registry.npmjs.org/babel-plugin-macros cache-miss
+177 silly packumentCache corgi:https://registry.npmjs.org/babel-preset-react-app cache-miss
+178 silly packumentCache corgi:https://registry.npmjs.org/regenerator-transform cache-miss
+179 silly packumentCache corgi:https://registry.npmjs.org/workbox-build cache-miss
+180 http cache https://registry.npmjs.org/@testing-library%2freact 21ms (cache hit)
+181 silly packumentCache corgi:https://registry.npmjs.org/@testing-library%2freact set size:203418 disposed:false
+182 http cache https://registry.npmjs.org/@testing-library%2fdom 28ms (cache hit)
+183 silly packumentCache corgi:https://registry.npmjs.org/@testing-library%2fdom set size:405516 disposed:false
+184 http cache https://registry.npmjs.org/@testing-library%2fuser-event 35ms (cache hit)
+185 silly packumentCache corgi:https://registry.npmjs.org/@testing-library%2fuser-event set size:377831 disposed:false
+186 http cache https://registry.npmjs.org/babel-plugin-macros 38ms (cache hit)
+187 silly packumentCache corgi:https://registry.npmjs.org/babel-plugin-macros set size:48216 disposed:false
+188 http cache https://registry.npmjs.org/regenerator-transform 39ms (cache hit)
+189 silly packumentCache corgi:https://registry.npmjs.org/regenerator-transform set size:38635 disposed:false
+190 http cache https://registry.npmjs.org/babel-preset-react-app 41ms (cache hit)
+191 silly packumentCache corgi:https://registry.npmjs.org/babel-preset-react-app set size:147133 disposed:false
+192 http cache https://registry.npmjs.org/workbox-build 42ms (cache hit)
+193 silly packumentCache corgi:https://registry.npmjs.org/workbox-build set size:191087 disposed:false
+194 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fhelper-module-transforms cache-miss
+195 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fhelper-replace-supers cache-miss
+196 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fhelper-wrap-function cache-miss
+197 silly packumentCache corgi:https://registry.npmjs.org/styled-components cache-miss
+198 http cache https://registry.npmjs.org/@babel%2fhelper-replace-supers 20ms (cache hit)
+199 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fhelper-replace-supers set size:133184 disposed:false
+200 http cache https://registry.npmjs.org/@babel%2fhelper-wrap-function 22ms (cache hit)
+201 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fhelper-wrap-function set size:104771 disposed:false
+202 http cache https://registry.npmjs.org/@babel%2fhelper-module-transforms 24ms (cache hit)
+203 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fhelper-module-transforms set size:174185 disposed:false
+204 http cache https://registry.npmjs.org/styled-components 28ms (cache hit)
+205 silly packumentCache corgi:https://registry.npmjs.org/styled-components set size:919151 disposed:false
+206 silly packumentCache corgi:https://registry.npmjs.org/chokidar cache-miss
+207 http cache https://registry.npmjs.org/chokidar 5ms (cache hit)
+208 silly packumentCache corgi:https://registry.npmjs.org/chokidar set size:118541 disposed:false
+209 silly packumentCache corgi:https://registry.npmjs.org/eslint cache-miss
+210 silly packumentCache corgi:https://registry.npmjs.org/execa cache-miss
+211 silly packumentCache corgi:https://registry.npmjs.org/react-dev-utils cache-miss
+212 http cache https://registry.npmjs.org/execa 9ms (cache hit)
+213 silly packumentCache corgi:https://registry.npmjs.org/execa set size:87598 disposed:false
+214 http cache https://registry.npmjs.org/eslint 14ms (cache hit)
+215 silly packumentCache corgi:https://registry.npmjs.org/eslint set size:1060371 disposed:false
+216 http cache https://registry.npmjs.org/react-dev-utils 26ms (cache hit)
+217 silly packumentCache corgi:https://registry.npmjs.org/react-dev-utils set size:182128 disposed:false
+218 silly packumentCache corgi:https://registry.npmjs.org/@surma%2frollup-plugin-off-main-thread cache-miss
+219 http cache https://registry.npmjs.org/@surma%2frollup-plugin-off-main-thread 8ms (cache hit)
+220 silly packumentCache corgi:https://registry.npmjs.org/@surma%2frollup-plugin-off-main-thread set size:22447 disposed:false
+221 silly packumentCache corgi:https://registry.npmjs.org/http-proxy cache-miss
+222 http cache https://registry.npmjs.org/http-proxy 5ms (cache hit)
+223 silly packumentCache corgi:https://registry.npmjs.org/http-proxy set size:66005 disposed:false
+224 silly packumentCache corgi:https://registry.npmjs.org/@jest%2fcore cache-miss
+225 silly packumentCache corgi:https://registry.npmjs.org/@jest%2ftransform cache-miss
+226 silly packumentCache corgi:https://registry.npmjs.org/eslint-webpack-plugin cache-miss
+227 silly packumentCache corgi:https://registry.npmjs.org/fast-glob cache-miss
+228 silly packumentCache corgi:https://registry.npmjs.org/jest-config cache-miss
+229 silly packumentCache corgi:https://registry.npmjs.org/jest-haste-map cache-miss
+230 silly packumentCache corgi:https://registry.npmjs.org/jest-message-util cache-miss
+231 silly packumentCache corgi:https://registry.npmjs.org/tailwindcss cache-miss
+232 http cache https://registry.npmjs.org/@jest%2fcore 22ms (cache hit)
+233 silly packumentCache corgi:https://registry.npmjs.org/@jest%2fcore set size:362703 disposed:false
+234 http cache https://registry.npmjs.org/@jest%2ftransform 28ms (cache hit)
+235 silly packumentCache corgi:https://registry.npmjs.org/@jest%2ftransform set size:276499 disposed:false
+236 http cache https://registry.npmjs.org/fast-glob 30ms (cache hit)
+237 silly packumentCache corgi:https://registry.npmjs.org/fast-glob set size:86036 disposed:false
+238 http cache https://registry.npmjs.org/eslint-webpack-plugin 31ms (cache hit)
+239 silly packumentCache corgi:https://registry.npmjs.org/eslint-webpack-plugin set size:69329 disposed:false
+240 http cache https://registry.npmjs.org/jest-config 33ms (cache hit)
+241 silly packumentCache corgi:https://registry.npmjs.org/jest-config set size:502783 disposed:false
+242 http cache https://registry.npmjs.org/jest-haste-map 38ms (cache hit)
+243 silly packumentCache corgi:https://registry.npmjs.org/jest-haste-map set size:378660 disposed:false
+244 http cache https://registry.npmjs.org/tailwindcss 48ms (cache hit)
+245 silly packumentCache corgi:https://registry.npmjs.org/tailwindcss set size:4310155 disposed:false
+246 http cache https://registry.npmjs.org/jest-message-util 92ms (cache hit)
+247 silly packumentCache corgi:https://registry.npmjs.org/jest-message-util set size:282985 disposed:false
+248 silly packumentCache corgi:https://registry.npmjs.org/css-select cache-miss
+249 http cache https://registry.npmjs.org/css-select 5ms (cache hit)
+250 silly packumentCache corgi:https://registry.npmjs.org/css-select set size:44393 disposed:false
+251 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-cascade-layers cache-miss
+252 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-color-function cache-miss
+253 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-font-format-keywords cache-miss
+254 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-hwb-function cache-miss
+255 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-ic-unit cache-miss
+256 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-is-pseudo-class cache-miss
+257 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-nested-calc cache-miss
+258 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-normalize-display-values cache-miss
+259 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-oklab-function cache-miss
+260 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-progressive-custom-properties cache-miss
+261 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-stepped-value-functions cache-miss
+262 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-text-decoration-shorthand cache-miss
+263 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-trigonometric-functions cache-miss
+264 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-unset-value cache-miss
+265 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fselector-specificity cache-miss
+266 silly packumentCache corgi:https://registry.npmjs.org/autoprefixer cache-miss
+267 silly packumentCache corgi:https://registry.npmjs.org/css-blank-pseudo cache-miss
+268 silly packumentCache corgi:https://registry.npmjs.org/css-declaration-sorter cache-miss
+269 silly packumentCache corgi:https://registry.npmjs.org/css-has-pseudo cache-miss
+270 silly packumentCache corgi:https://registry.npmjs.org/css-minimizer-webpack-plugin cache-miss
+271 silly packumentCache corgi:https://registry.npmjs.org/css-prefers-color-scheme cache-miss
+272 silly packumentCache corgi:https://registry.npmjs.org/cssnano cache-miss
+273 silly packumentCache corgi:https://registry.npmjs.org/cssnano-preset-default cache-miss
+274 silly packumentCache corgi:https://registry.npmjs.org/cssnano-utils cache-miss
+275 silly packumentCache corgi:https://registry.npmjs.org/icss-utils cache-miss
+276 silly packumentCache corgi:https://registry.npmjs.org/postcss-attribute-case-insensitive cache-miss
+277 silly packumentCache corgi:https://registry.npmjs.org/postcss-browser-comments cache-miss
+278 silly packumentCache corgi:https://registry.npmjs.org/postcss-calc cache-miss
+279 silly packumentCache corgi:https://registry.npmjs.org/postcss-clamp cache-miss
+280 silly packumentCache corgi:https://registry.npmjs.org/postcss-color-functional-notation cache-miss
+281 silly packumentCache corgi:https://registry.npmjs.org/postcss-color-hex-alpha cache-miss
+282 silly packumentCache corgi:https://registry.npmjs.org/postcss-color-rebeccapurple cache-miss
+283 silly packumentCache corgi:https://registry.npmjs.org/postcss-colormin cache-miss
+284 silly packumentCache corgi:https://registry.npmjs.org/postcss-convert-values cache-miss
+285 silly packumentCache corgi:https://registry.npmjs.org/postcss-custom-media cache-miss
+286 silly packumentCache corgi:https://registry.npmjs.org/postcss-custom-properties cache-miss
+287 silly packumentCache corgi:https://registry.npmjs.org/postcss-custom-selectors cache-miss
+288 silly packumentCache corgi:https://registry.npmjs.org/postcss-dir-pseudo-class cache-miss
+289 silly packumentCache corgi:https://registry.npmjs.org/postcss-discard-comments cache-miss
+290 silly packumentCache corgi:https://registry.npmjs.org/postcss-discard-duplicates cache-miss
+291 silly packumentCache corgi:https://registry.npmjs.org/postcss-discard-empty cache-miss
+292 silly packumentCache corgi:https://registry.npmjs.org/postcss-discard-overridden cache-miss
+293 silly packumentCache corgi:https://registry.npmjs.org/postcss-double-position-gradients cache-miss
+294 silly packumentCache corgi:https://registry.npmjs.org/postcss-env-function cache-miss
+295 silly packumentCache corgi:https://registry.npmjs.org/postcss-flexbugs-fixes cache-miss
+296 silly packumentCache corgi:https://registry.npmjs.org/postcss-focus-visible cache-miss
+297 silly packumentCache corgi:https://registry.npmjs.org/postcss-focus-within cache-miss
+298 silly packumentCache corgi:https://registry.npmjs.org/postcss-font-variant cache-miss
+299 silly packumentCache corgi:https://registry.npmjs.org/postcss-gap-properties cache-miss
+300 silly packumentCache corgi:https://registry.npmjs.org/postcss-image-set-function cache-miss
+301 silly packumentCache corgi:https://registry.npmjs.org/postcss-import cache-miss
+302 silly packumentCache corgi:https://registry.npmjs.org/postcss-initial cache-miss
+303 silly packumentCache corgi:https://registry.npmjs.org/postcss-js cache-miss
+304 silly packumentCache corgi:https://registry.npmjs.org/postcss-lab-function cache-miss
+305 silly packumentCache corgi:https://registry.npmjs.org/postcss-load-config cache-miss
+306 silly packumentCache corgi:https://registry.npmjs.org/postcss-logical cache-miss
+307 silly packumentCache corgi:https://registry.npmjs.org/postcss-media-minmax cache-miss
+308 silly packumentCache corgi:https://registry.npmjs.org/postcss-merge-longhand cache-miss
+309 silly packumentCache corgi:https://registry.npmjs.org/postcss-merge-rules cache-miss
+310 silly packumentCache corgi:https://registry.npmjs.org/postcss-minify-font-values cache-miss
+311 silly packumentCache corgi:https://registry.npmjs.org/postcss-minify-gradients cache-miss
+312 silly packumentCache corgi:https://registry.npmjs.org/postcss-minify-params cache-miss
+313 silly packumentCache corgi:https://registry.npmjs.org/postcss-minify-selectors cache-miss
+314 silly packumentCache corgi:https://registry.npmjs.org/postcss-modules-extract-imports cache-miss
+315 silly packumentCache corgi:https://registry.npmjs.org/postcss-modules-local-by-default cache-miss
+316 silly packumentCache corgi:https://registry.npmjs.org/postcss-modules-scope cache-miss
+317 silly packumentCache corgi:https://registry.npmjs.org/postcss-modules-values cache-miss
+318 silly packumentCache corgi:https://registry.npmjs.org/postcss-nested cache-miss
+319 silly packumentCache corgi:https://registry.npmjs.org/postcss-nesting cache-miss
+320 silly packumentCache corgi:https://registry.npmjs.org/postcss-normalize cache-miss
+321 silly packumentCache corgi:https://registry.npmjs.org/postcss-normalize-charset cache-miss
+322 silly packumentCache corgi:https://registry.npmjs.org/postcss-normalize-display-values cache-miss
+323 silly packumentCache corgi:https://registry.npmjs.org/postcss-normalize-positions cache-miss
+324 silly packumentCache corgi:https://registry.npmjs.org/postcss-normalize-repeat-style cache-miss
+325 silly packumentCache corgi:https://registry.npmjs.org/postcss-normalize-string cache-miss
+326 silly packumentCache corgi:https://registry.npmjs.org/postcss-normalize-timing-functions cache-miss
+327 silly packumentCache corgi:https://registry.npmjs.org/postcss-normalize-unicode cache-miss
+328 silly packumentCache corgi:https://registry.npmjs.org/postcss-normalize-url cache-miss
+329 silly packumentCache corgi:https://registry.npmjs.org/postcss-normalize-whitespace cache-miss
+330 silly packumentCache corgi:https://registry.npmjs.org/postcss-opacity-percentage cache-miss
+331 silly packumentCache corgi:https://registry.npmjs.org/postcss-ordered-values cache-miss
+332 silly packumentCache corgi:https://registry.npmjs.org/postcss-overflow-shorthand cache-miss
+333 silly packumentCache corgi:https://registry.npmjs.org/postcss-page-break cache-miss
+334 silly packumentCache corgi:https://registry.npmjs.org/postcss-place cache-miss
+335 silly packumentCache corgi:https://registry.npmjs.org/postcss-preset-env cache-miss
+336 silly packumentCache corgi:https://registry.npmjs.org/postcss-pseudo-class-any-link cache-miss
+337 silly packumentCache corgi:https://registry.npmjs.org/postcss-reduce-initial cache-miss
+338 silly packumentCache corgi:https://registry.npmjs.org/postcss-reduce-transforms cache-miss
+339 silly packumentCache corgi:https://registry.npmjs.org/postcss-replace-overflow-wrap cache-miss
+340 silly packumentCache corgi:https://registry.npmjs.org/postcss-selector-not cache-miss
+341 silly packumentCache corgi:https://registry.npmjs.org/postcss-svgo cache-miss
+342 silly packumentCache corgi:https://registry.npmjs.org/postcss-unique-selectors cache-miss
+343 silly packumentCache corgi:https://registry.npmjs.org/stylehacks cache-miss
+344 silly packumentCache corgi:https://registry.npmjs.org/resolve-url-loader cache-miss
+345 http cache https://registry.npmjs.org/@csstools%2fpostcss-hwb-function 209ms (cache hit)
+346 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-hwb-function set size:46516 disposed:false
+347 http cache https://registry.npmjs.org/@csstools%2fpostcss-cascade-layers 210ms (cache hit)
+348 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-cascade-layers set size:30479 disposed:false
+349 http cache https://registry.npmjs.org/@csstools%2fpostcss-is-pseudo-class 210ms (cache hit)
+350 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-is-pseudo-class set size:37991 disposed:false
+351 http cache https://registry.npmjs.org/@csstools%2fpostcss-color-function 212ms (cache hit)
+352 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-color-function set size:54004 disposed:false
+353 http cache https://registry.npmjs.org/@csstools%2fpostcss-font-format-keywords 212ms (cache hit)
+354 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-font-format-keywords set size:12316 disposed:false
+355 http cache https://registry.npmjs.org/@csstools%2fpostcss-ic-unit 212ms (cache hit)
+356 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-ic-unit set size:20685 disposed:false
+357 http cache https://registry.npmjs.org/@csstools%2fpostcss-nested-calc 212ms (cache hit)
+358 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-nested-calc set size:10467 disposed:false
+359 http cache https://registry.npmjs.org/@csstools%2fpostcss-stepped-value-functions 212ms (cache hit)
+360 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-stepped-value-functions set size:30712 disposed:false
+361 http cache https://registry.npmjs.org/@csstools%2fpostcss-normalize-display-values 213ms (cache hit)
+362 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-normalize-display-values set size:10642 disposed:false
+363 http cache https://registry.npmjs.org/@csstools%2fpostcss-oklab-function 212ms (cache hit)
+364 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-oklab-function set size:51495 disposed:false
+365 http cache https://registry.npmjs.org/@csstools%2fselector-specificity 212ms (cache hit)
+366 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fselector-specificity set size:19008 disposed:false
+367 http cache https://registry.npmjs.org/@csstools%2fpostcss-text-decoration-shorthand 214ms (cache hit)
+368 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-text-decoration-shorthand set size:26105 disposed:false
+369 http cache https://registry.npmjs.org/@csstools%2fpostcss-trigonometric-functions 213ms (cache hit)
+370 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-trigonometric-functions set size:32519 disposed:false
+371 http cache https://registry.npmjs.org/css-has-pseudo 213ms (cache hit)
+372 silly packumentCache corgi:https://registry.npmjs.org/css-has-pseudo set size:49811 disposed:false
+373 http cache https://registry.npmjs.org/@csstools%2fpostcss-progressive-custom-properties 215ms (cache hit)
+374 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-progressive-custom-properties set size:25647 disposed:false
+375 http cache https://registry.npmjs.org/@csstools%2fpostcss-unset-value 215ms (cache hit)
+376 silly packumentCache corgi:https://registry.npmjs.org/@csstools%2fpostcss-unset-value set size:10842 disposed:false
+377 http cache https://registry.npmjs.org/css-blank-pseudo 215ms (cache hit)
+378 silly packumentCache corgi:https://registry.npmjs.org/css-blank-pseudo set size:34122 disposed:false
+379 http cache https://registry.npmjs.org/autoprefixer 215ms (cache hit)
+380 silly packumentCache corgi:https://registry.npmjs.org/autoprefixer set size:291410 disposed:false
+381 http cache https://registry.npmjs.org/css-declaration-sorter 219ms (cache hit)
+382 silly packumentCache corgi:https://registry.npmjs.org/css-declaration-sorter set size:55271 disposed:false
+383 http cache https://registry.npmjs.org/postcss-browser-comments 217ms (cache hit)
+384 silly packumentCache corgi:https://registry.npmjs.org/postcss-browser-comments set size:9705 disposed:false
+385 http cache https://registry.npmjs.org/css-minimizer-webpack-plugin 219ms (cache hit)
+386 silly packumentCache corgi:https://registry.npmjs.org/css-minimizer-webpack-plugin set size:86178 disposed:false
+387 http cache https://registry.npmjs.org/css-prefers-color-scheme 221ms (cache hit)
+388 silly packumentCache corgi:https://registry.npmjs.org/css-prefers-color-scheme set size:29856 disposed:false
+389 http cache https://registry.npmjs.org/icss-utils 220ms (cache hit)
+390 silly packumentCache corgi:https://registry.npmjs.org/icss-utils set size:13079 disposed:false
+391 http cache https://registry.npmjs.org/cssnano 222ms (cache hit)
+392 silly packumentCache corgi:https://registry.npmjs.org/cssnano set size:236995 disposed:false
+393 http cache https://registry.npmjs.org/postcss-calc 223ms (cache hit)
+394 silly packumentCache corgi:https://registry.npmjs.org/postcss-calc set size:45697 disposed:false
+395 http cache https://registry.npmjs.org/cssnano-preset-default 227ms (cache hit)
+396 silly packumentCache corgi:https://registry.npmjs.org/cssnano-preset-default set size:190017 disposed:false
+397 http cache https://registry.npmjs.org/postcss-color-rebeccapurple 228ms (cache hit)
+398 silly packumentCache corgi:https://registry.npmjs.org/postcss-color-rebeccapurple set size:29726 disposed:false
+399 http cache https://registry.npmjs.org/cssnano-utils 231ms (cache hit)
+400 silly packumentCache corgi:https://registry.npmjs.org/cssnano-utils set size:51182 disposed:false
+401 http cache https://registry.npmjs.org/postcss-color-functional-notation 231ms (cache hit)
+402 silly packumentCache corgi:https://registry.npmjs.org/postcss-color-functional-notation set size:61965 disposed:false
+403 http cache https://registry.npmjs.org/postcss-color-hex-alpha 232ms (cache hit)
+404 silly packumentCache corgi:https://registry.npmjs.org/postcss-color-hex-alpha set size:32028 disposed:false
+405 http cache https://registry.npmjs.org/postcss-attribute-case-insensitive 233ms (cache hit)
+406 silly packumentCache corgi:https://registry.npmjs.org/postcss-attribute-case-insensitive set size:24985 disposed:false
+407 http cache https://registry.npmjs.org/postcss-clamp 232ms (cache hit)
+408 silly packumentCache corgi:https://registry.npmjs.org/postcss-clamp set size:12419 disposed:false
+409 http cache https://registry.npmjs.org/postcss-custom-properties 232ms (cache hit)
+410 silly packumentCache corgi:https://registry.npmjs.org/postcss-custom-properties set size:117950 disposed:false
+411 http cache https://registry.npmjs.org/postcss-colormin 234ms (cache hit)
+412 silly packumentCache corgi:https://registry.npmjs.org/postcss-colormin set size:83704 disposed:false
+413 http cache https://registry.npmjs.org/postcss-dir-pseudo-class 234ms (cache hit)
+414 silly packumentCache corgi:https://registry.npmjs.org/postcss-dir-pseudo-class set size:25368 disposed:false
+415 http cache https://registry.npmjs.org/postcss-convert-values 235ms (cache hit)
+416 silly packumentCache corgi:https://registry.npmjs.org/postcss-convert-values set size:85422 disposed:false
+417 http cache https://registry.npmjs.org/postcss-discard-duplicates 235ms (cache hit)
+418 silly packumentCache corgi:https://registry.npmjs.org/postcss-discard-duplicates set size:60821 disposed:false
+419 http cache https://registry.npmjs.org/postcss-custom-media 238ms (cache hit)
+420 silly packumentCache corgi:https://registry.npmjs.org/postcss-custom-media set size:57581 disposed:false
+421 http cache https://registry.npmjs.org/postcss-custom-selectors 238ms (cache hit)
+422 silly packumentCache corgi:https://registry.npmjs.org/postcss-custom-selectors set size:45919 disposed:false
+423 http cache https://registry.npmjs.org/postcss-discard-empty 238ms (cache hit)
+424 silly packumentCache corgi:https://registry.npmjs.org/postcss-discard-empty set size:54777 disposed:false
+425 http cache https://registry.npmjs.org/postcss-flexbugs-fixes 239ms (cache hit)
+426 silly packumentCache corgi:https://registry.npmjs.org/postcss-flexbugs-fixes set size:21877 disposed:false
+427 http cache https://registry.npmjs.org/postcss-discard-comments 242ms (cache hit)
+428 silly packumentCache corgi:https://registry.npmjs.org/postcss-discard-comments set size:66859 disposed:false
+429 http cache https://registry.npmjs.org/postcss-double-position-gradients 241ms (cache hit)
+430 silly packumentCache corgi:https://registry.npmjs.org/postcss-double-position-gradients set size:36039 disposed:false
+431 http cache https://registry.npmjs.org/postcss-env-function 242ms (cache hit)
+432 silly packumentCache corgi:https://registry.npmjs.org/postcss-env-function set size:24392 disposed:false
+433 http cache https://registry.npmjs.org/postcss-focus-visible 242ms (cache hit)
+434 silly packumentCache corgi:https://registry.npmjs.org/postcss-focus-visible set size:24104 disposed:false
+435 http cache https://registry.npmjs.org/postcss-font-variant 242ms (cache hit)
+436 silly packumentCache corgi:https://registry.npmjs.org/postcss-font-variant set size:9720 disposed:false
+437 http cache https://registry.npmjs.org/postcss-image-set-function 242ms (cache hit)
+438 silly packumentCache corgi:https://registry.npmjs.org/postcss-image-set-function set size:29334 disposed:false
+439 http cache https://registry.npmjs.org/postcss-discard-overridden 246ms (cache hit)
+440 silly packumentCache corgi:https://registry.npmjs.org/postcss-discard-overridden set size:51482 disposed:false
+441 http cache https://registry.npmjs.org/postcss-focus-within 245ms (cache hit)
+442 silly packumentCache corgi:https://registry.npmjs.org/postcss-focus-within set size:25519 disposed:false
+443 http cache https://registry.npmjs.org/postcss-initial 245ms (cache hit)
+444 silly packumentCache corgi:https://registry.npmjs.org/postcss-initial set size:17055 disposed:false
+445 http cache https://registry.npmjs.org/postcss-import 245ms (cache hit)
+446 silly packumentCache corgi:https://registry.npmjs.org/postcss-import set size:51326 disposed:false
+447 http cache https://registry.npmjs.org/postcss-gap-properties 246ms (cache hit)
+448 silly packumentCache corgi:https://registry.npmjs.org/postcss-gap-properties set size:18264 disposed:false
+449 http cache https://registry.npmjs.org/postcss-js 246ms (cache hit)
+450 silly packumentCache corgi:https://registry.npmjs.org/postcss-js set size:20759 disposed:false
+451 http cache https://registry.npmjs.org/postcss-merge-longhand 245ms (cache hit)
+452 silly packumentCache corgi:https://registry.npmjs.org/postcss-merge-longhand set size:90672 disposed:false
+453 http cache https://registry.npmjs.org/postcss-lab-function 249ms (cache hit)
+454 silly packumentCache corgi:https://registry.npmjs.org/postcss-lab-function set size:76007 disposed:false
+455 http cache https://registry.npmjs.org/postcss-minify-font-values 249ms (cache hit)
+456 silly packumentCache corgi:https://registry.npmjs.org/postcss-minify-font-values set size:58439 disposed:false
+457 http cache https://registry.npmjs.org/postcss-media-minmax 251ms (cache hit)
+458 silly packumentCache corgi:https://registry.npmjs.org/postcss-media-minmax set size:7881 disposed:false
+459 http cache https://registry.npmjs.org/postcss-merge-rules 250ms (cache hit)
+460 silly packumentCache corgi:https://registry.npmjs.org/postcss-merge-rules set size:96985 disposed:false
+461 http cache https://registry.npmjs.org/postcss-load-config 254ms (cache hit)
+462 silly packumentCache corgi:https://registry.npmjs.org/postcss-load-config set size:37999 disposed:false
+463 http cache https://registry.npmjs.org/postcss-minify-params 253ms (cache hit)
+464 silly packumentCache corgi:https://registry.npmjs.org/postcss-minify-params set size:74959 disposed:false
+465 http cache https://registry.npmjs.org/postcss-minify-gradients 256ms (cache hit)
+466 silly packumentCache corgi:https://registry.npmjs.org/postcss-minify-gradients set size:64179 disposed:false
+467 http cache https://registry.npmjs.org/postcss-logical 258ms (cache hit)
+468 silly packumentCache corgi:https://registry.npmjs.org/postcss-logical set size:28174 disposed:false
+469 http cache https://registry.npmjs.org/postcss-modules-extract-imports 257ms (cache hit)
+470 silly packumentCache corgi:https://registry.npmjs.org/postcss-modules-extract-imports set size:20843 disposed:false
+471 http cache https://registry.npmjs.org/postcss-minify-selectors 258ms (cache hit)
+472 silly packumentCache corgi:https://registry.npmjs.org/postcss-minify-selectors set size:80857 disposed:false
+473 http cache https://registry.npmjs.org/postcss-modules-scope 258ms (cache hit)
+474 silly packumentCache corgi:https://registry.npmjs.org/postcss-modules-scope set size:31384 disposed:false
+475 http cache https://registry.npmjs.org/postcss-modules-local-by-default 258ms (cache hit)
+476 silly packumentCache corgi:https://registry.npmjs.org/postcss-modules-local-by-default set size:48451 disposed:false
+477 http cache https://registry.npmjs.org/postcss-modules-values 259ms (cache hit)
+478 silly packumentCache corgi:https://registry.npmjs.org/postcss-modules-values set size:22165 disposed:false
+479 http cache https://registry.npmjs.org/postcss-nested 259ms (cache hit)
+480 silly packumentCache corgi:https://registry.npmjs.org/postcss-nested set size:41645 disposed:false
+481 http cache https://registry.npmjs.org/postcss-normalize 259ms (cache hit)
+482 silly packumentCache corgi:https://registry.npmjs.org/postcss-normalize set size:27537 disposed:false
+483 http cache https://registry.npmjs.org/postcss-normalize-display-values 260ms (cache hit)
+484 silly packumentCache corgi:https://registry.npmjs.org/postcss-normalize-display-values set size:52477 disposed:false
+485 http cache https://registry.npmjs.org/postcss-normalize-charset 261ms (cache hit)
+486 silly packumentCache corgi:https://registry.npmjs.org/postcss-normalize-charset set size:50015 disposed:false
+487 http cache https://registry.npmjs.org/postcss-normalize-repeat-style 256ms (cache hit)
+488 silly packumentCache corgi:https://registry.npmjs.org/postcss-normalize-repeat-style set size:55831 disposed:false
+489 http cache https://registry.npmjs.org/postcss-nesting 263ms (cache hit)
+490 silly packumentCache corgi:https://registry.npmjs.org/postcss-nesting set size:74718 disposed:false
+491 http cache https://registry.npmjs.org/postcss-normalize-string 258ms (cache hit)
+492 silly packumentCache corgi:https://registry.npmjs.org/postcss-normalize-string set size:52817 disposed:false
+493 http cache https://registry.npmjs.org/postcss-normalize-unicode 259ms (cache hit)
+494 silly packumentCache corgi:https://registry.npmjs.org/postcss-normalize-unicode set size:56514 disposed:false
+495 http cache https://registry.npmjs.org/postcss-normalize-timing-functions 261ms (cache hit)
+496 silly packumentCache corgi:https://registry.npmjs.org/postcss-normalize-timing-functions set size:52689 disposed:false
+497 http cache https://registry.npmjs.org/postcss-normalize-positions 263ms (cache hit)
+498 silly packumentCache corgi:https://registry.npmjs.org/postcss-normalize-positions set size:55037 disposed:false
+499 http cache https://registry.npmjs.org/postcss-opacity-percentage 261ms (cache hit)
+500 silly packumentCache corgi:https://registry.npmjs.org/postcss-opacity-percentage set size:13019 disposed:false
+501 http cache https://registry.npmjs.org/postcss-page-break 261ms (cache hit)
+502 silly packumentCache corgi:https://registry.npmjs.org/postcss-page-break set size:10950 disposed:false
+503 http cache https://registry.npmjs.org/postcss-normalize-whitespace 264ms (cache hit)
+504 silly packumentCache corgi:https://registry.npmjs.org/postcss-normalize-whitespace set size:54644 disposed:false
+505 http cache https://registry.npmjs.org/postcss-ordered-values 264ms (cache hit)
+506 silly packumentCache corgi:https://registry.npmjs.org/postcss-ordered-values set size:73795 disposed:false
+507 http cache https://registry.npmjs.org/postcss-overflow-shorthand 268ms (cache hit)
+508 silly packumentCache corgi:https://registry.npmjs.org/postcss-overflow-shorthand set size:18883 disposed:false
+509 http cache https://registry.npmjs.org/postcss-normalize-url 269ms (cache hit)
+510 silly packumentCache corgi:https://registry.npmjs.org/postcss-normalize-url set size:70414 disposed:false
+511 http cache https://registry.npmjs.org/postcss-reduce-initial 267ms (cache hit)
+512 silly packumentCache corgi:https://registry.npmjs.org/postcss-reduce-initial set size:61683 disposed:false
+513 http cache https://registry.npmjs.org/postcss-replace-overflow-wrap 267ms (cache hit)
+514 silly packumentCache corgi:https://registry.npmjs.org/postcss-replace-overflow-wrap set size:5243 disposed:false
+515 http cache https://registry.npmjs.org/postcss-reduce-transforms 269ms (cache hit)
+516 silly packumentCache corgi:https://registry.npmjs.org/postcss-reduce-transforms set size:57503 disposed:false
+517 http cache https://registry.npmjs.org/postcss-place 272ms (cache hit)
+518 silly packumentCache corgi:https://registry.npmjs.org/postcss-place set size:26945 disposed:false
+519 http cache https://registry.npmjs.org/postcss-svgo 271ms (cache hit)
+520 silly packumentCache corgi:https://registry.npmjs.org/postcss-svgo set size:67747 disposed:false
+521 http cache https://registry.npmjs.org/postcss-preset-env 276ms (cache hit)
+522 silly packumentCache corgi:https://registry.npmjs.org/postcss-preset-env set size:394135 disposed:false
+523 http cache https://registry.npmjs.org/postcss-pseudo-class-any-link 280ms (cache hit)
+524 silly packumentCache corgi:https://registry.npmjs.org/postcss-pseudo-class-any-link set size:35208 disposed:false
+525 http cache https://registry.npmjs.org/postcss-selector-not 280ms (cache hit)
+526 silly packumentCache corgi:https://registry.npmjs.org/postcss-selector-not set size:20790 disposed:false
+527 http cache https://registry.npmjs.org/stylehacks 280ms (cache hit)
+528 silly packumentCache corgi:https://registry.npmjs.org/stylehacks set size:65614 disposed:false
+529 http cache https://registry.npmjs.org/postcss-unique-selectors 283ms (cache hit)
+530 silly packumentCache corgi:https://registry.npmjs.org/postcss-unique-selectors set size:60866 disposed:false
+531 http cache https://registry.npmjs.org/resolve-url-loader 283ms (cache hit)
+532 silly packumentCache corgi:https://registry.npmjs.org/resolve-url-loader set size:61938 disposed:false
+533 silly packumentCache corgi:https://registry.npmjs.org/@rollup%2fplugin-babel cache-miss
+534 silly packumentCache corgi:https://registry.npmjs.org/@rollup%2fplugin-node-resolve cache-miss
+535 silly packumentCache corgi:https://registry.npmjs.org/@rollup%2fplugin-replace cache-miss
+536 silly packumentCache corgi:https://registry.npmjs.org/@rollup%2fpluginutils cache-miss
+537 silly packumentCache corgi:https://registry.npmjs.org/rollup-plugin-terser cache-miss
+538 http cache https://registry.npmjs.org/@rollup%2fplugin-node-resolve 13ms (cache hit)
+539 silly packumentCache corgi:https://registry.npmjs.org/@rollup%2fplugin-node-resolve set size:89470 disposed:false
+540 http cache https://registry.npmjs.org/@rollup%2fplugin-babel 20ms (cache hit)
+541 silly packumentCache corgi:https://registry.npmjs.org/@rollup%2fplugin-babel set size:32861 disposed:false
+542 http cache https://registry.npmjs.org/@rollup%2fplugin-replace 20ms (cache hit)
+543 silly packumentCache corgi:https://registry.npmjs.org/@rollup%2fplugin-replace set size:37448 disposed:false
+544 http cache https://registry.npmjs.org/@rollup%2fpluginutils 24ms (cache hit)
+545 silly packumentCache corgi:https://registry.npmjs.org/@rollup%2fpluginutils set size:45220 disposed:false
+546 http cache https://registry.npmjs.org/rollup-plugin-terser 24ms (cache hit)
+547 silly packumentCache corgi:https://registry.npmjs.org/rollup-plugin-terser set size:47323 disposed:false
+548 silly packumentCache corgi:https://registry.npmjs.org/terser-webpack-plugin cache-miss
+549 http cache https://registry.npmjs.org/terser-webpack-plugin 10ms (cache hit)
+550 silly packumentCache corgi:https://registry.npmjs.org/terser-webpack-plugin set size:199311 disposed:false
+551 silly packumentCache corgi:https://registry.npmjs.org/jsdom cache-miss
+552 http cache https://registry.npmjs.org/jsdom 7ms (cache hit)
+553 silly packumentCache corgi:https://registry.npmjs.org/jsdom set size:359063 disposed:false
+554 silly packumentCache corgi:https://registry.npmjs.org/@pmmmwh%2freact-refresh-webpack-plugin cache-miss
+555 silly packumentCache corgi:https://registry.npmjs.org/babel-loader cache-miss
+556 silly packumentCache corgi:https://registry.npmjs.org/file-loader cache-miss
+557 silly packumentCache corgi:https://registry.npmjs.org/html-webpack-plugin cache-miss
+558 silly packumentCache corgi:https://registry.npmjs.org/mini-css-extract-plugin cache-miss
+559 silly packumentCache corgi:https://registry.npmjs.org/sass-loader cache-miss
+560 silly packumentCache corgi:https://registry.npmjs.org/source-map-loader cache-miss
+561 silly packumentCache corgi:https://registry.npmjs.org/style-loader cache-miss
+562 silly packumentCache corgi:https://registry.npmjs.org/webpack-manifest-plugin cache-miss
+563 silly packumentCache corgi:https://registry.npmjs.org/workbox-webpack-plugin cache-miss
+564 http cache https://registry.npmjs.org/babel-loader 38ms (cache hit)
+565 silly packumentCache corgi:https://registry.npmjs.org/babel-loader set size:112155 disposed:false
+566 http cache https://registry.npmjs.org/@pmmmwh%2freact-refresh-webpack-plugin 40ms (cache hit)
+567 silly packumentCache corgi:https://registry.npmjs.org/@pmmmwh%2freact-refresh-webpack-plugin set size:198841 disposed:false
+568 http cache https://registry.npmjs.org/sass-loader 43ms (cache hit)
+569 silly packumentCache corgi:https://registry.npmjs.org/sass-loader set size:200710 disposed:false
+570 http cache https://registry.npmjs.org/file-loader 46ms (cache hit)
+571 silly packumentCache corgi:https://registry.npmjs.org/file-loader set size:64354 disposed:false
+572 http cache https://registry.npmjs.org/html-webpack-plugin 47ms (cache hit)
+573 silly packumentCache corgi:https://registry.npmjs.org/html-webpack-plugin set size:230884 disposed:false
+574 http cache https://registry.npmjs.org/mini-css-extract-plugin 51ms (cache hit)
+575 silly packumentCache corgi:https://registry.npmjs.org/mini-css-extract-plugin set size:179129 disposed:false
+576 http cache https://registry.npmjs.org/workbox-webpack-plugin 51ms (cache hit)
+577 silly packumentCache corgi:https://registry.npmjs.org/workbox-webpack-plugin set size:134541 disposed:false
+578 http cache https://registry.npmjs.org/style-loader 55ms (cache hit)
+579 silly packumentCache corgi:https://registry.npmjs.org/style-loader set size:87141 disposed:false
+580 http cache https://registry.npmjs.org/source-map-loader 57ms (cache hit)
+581 silly packumentCache corgi:https://registry.npmjs.org/source-map-loader set size:45783 disposed:false
+582 http cache https://registry.npmjs.org/webpack-manifest-plugin 56ms (cache hit)
+583 silly packumentCache corgi:https://registry.npmjs.org/webpack-manifest-plugin set size:57039 disposed:false
+584 silly packumentCache corgi:https://registry.npmjs.org/optionator cache-miss
+585 http cache https://registry.npmjs.org/optionator 5ms (cache hit)
+586 silly packumentCache corgi:https://registry.npmjs.org/optionator set size:17570 disposed:false
+587 silly packumentCache corgi:https://registry.npmjs.org/svgo cache-miss
+588 http cache https://registry.npmjs.org/svgo 8ms (cache hit)
+589 silly packumentCache corgi:https://registry.npmjs.org/svgo set size:130427 disposed:false
+590 silly packumentCache corgi:https://registry.npmjs.org/@svgr%2fplugin-svgo cache-miss
+591 http cache https://registry.npmjs.org/@svgr%2fplugin-svgo 4ms (cache hit)
+592 silly packumentCache corgi:https://registry.npmjs.org/@svgr%2fplugin-svgo set size:36570 disposed:false
+593 silly packumentCache corgi:https://registry.npmjs.org/@svgr%2fwebpack cache-miss
+594 http cache https://registry.npmjs.org/@svgr%2fwebpack 5ms (cache hit)
+595 silly packumentCache corgi:https://registry.npmjs.org/@svgr%2fwebpack set size:85201 disposed:false
+596 silly ADD
+597 verbose cwd C:\Users\Usuário\Documents\EBAC\python\Introdução ao CSS in JS com React\exercicio-\exercicio-fork\base_exercicio_css_in_js
+598 verbose os Windows_NT 10.0.19045
+599 verbose node v22.15.1
+600 verbose npm  v10.9.2
+601 verbose exit 0
+602 info ok
