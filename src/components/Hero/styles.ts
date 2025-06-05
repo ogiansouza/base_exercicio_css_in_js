@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { Cores } from '../../styles/styles'
 
-export const Form = styled.section`
+export const Form = styled.form`
   height: 360px;
   width: 100%;
   background-image: url('https://cdn.pixabay.com/photo/2018/08/10/15/45/woman-3597101_1280.jpg');
@@ -10,7 +10,6 @@ export const Form = styled.section`
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
 
   &::before {
     position: absolute;
@@ -18,9 +17,16 @@ export const Form = styled.section`
     left: 0;
     width: 100%;
     height: 100%;
+    background-color: ${Cores.corPrincipal};
     content: '';
-    background-color: rgba(167, 114, 125, 0.7);
+    opacity: 0.7;
     z-index: 1;
+  }
+
+  div {
+    position: relative;
+    color: #eee;
+    z-index: 2;
   }
 
   @media (max-width: 768px) {
@@ -29,20 +35,10 @@ export const Form = styled.section`
   }
 `
 
-export const FormContent = styled.div`
-  position: relative;
-  z-index: 2;
-  color: ${Cores.corSecundaria};
-  text-align: center;
-  max-width: 800px;
-  padding: 0 16px;
-`
-
-export const HeroTitle = styled.h1`
+export const HeroTitle = styled.h2`
   font-family: 'Gloock', serif;
   font-size: 48px;
   color: ${Cores.corSecundaria};
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
 
   @media (max-width: 768px) {
     font-size: 32px;
