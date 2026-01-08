@@ -1,5 +1,4 @@
 import { FormEvent, useState } from 'react'
-
 import { Form, Input, Button } from './styles'
 
 type Props = {
@@ -7,11 +6,11 @@ type Props = {
 }
 
 const FormVagas = ({ aoPesquisar }: Props) => {
-  const [termo, setTermo] = useState<string>('')
+  const [termo, setTermo] = useState('')
 
   const aoEnviarForm = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    aoPesquisar(termo.toLocaleLowerCase())
+    aoPesquisar(termo.toLowerCase())
   }
 
   return (
@@ -25,4 +24,5 @@ const FormVagas = ({ aoPesquisar }: Props) => {
     </Form>
   )
 }
+
 export default FormVagas

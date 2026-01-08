@@ -8,7 +8,7 @@ export const Card = styled.li`
   transition: all ease 0.3s;
   border-radius: 8px;
 
-  $:hover {
+  &:hover {
     background-color: ${(props) => props.theme.corPrincipal};
     color: ${(props) => props.theme.corSecundaria};
   }
@@ -40,5 +40,6 @@ export const CardLink = styled.a`
 
   @media (max-width: 768px) {
     display: block;
+    width: 100%;
   }
 `

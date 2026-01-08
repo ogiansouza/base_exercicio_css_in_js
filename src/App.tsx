@@ -2,15 +2,12 @@ import { ThemeProvider } from 'styled-components'
 import Header from './components/Cabecalho'
 import Hero from './components/Hero'
 import ListaVagas from './containers/ListaVagas'
-import './global.css'
 import GlobalStyle, { Container } from './styles'
-import colors from './theme/colors'
-
+import theme from './theme/colors'
 
 function App() {
   return (
-    <>
-      <ThemeProvider theme={colors}>
+    <ThemeProvider theme={theme}>
       <GlobalStyle />
       <Header />
       <Hero />
@@ -18,7 +15,6 @@ function App() {
         <ListaVagas />
       </Container>
     </ThemeProvider>
-    </>
   )
 }
 
