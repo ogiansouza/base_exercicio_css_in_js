@@ -1,12 +1,10 @@
 import { useState } from 'react'
 import FormVagas from '../../components/FormVagas'
-
 import Vaga from '../../components/Vaga'
+import { CardList } from './styles'
 
-import styles from './ListaVagas.module.css'
-
-type Vaga = {
-  id: string
+type VagaType = {
+  id: number
   titulo: string
   localizacao: string
   nivel: string
@@ -16,7 +14,7 @@ type Vaga = {
   requisitos: string[]
 }
 
-const vagas = [
+const vagas: VagaType[] = [
   {
     id: 1,
     titulo: 'Desenvolvedor front-end',
@@ -44,7 +42,7 @@ const vagas = [
     nivel: 'pleno',
     modalidade: 'pj',
     salarioMin: 4000,
-    salarioMax: 6000,
+    salarioMax: 5000,
     requisitos: ['HTML', 'CSS', 'JavaScript', 'jQuery']
   },
   {
@@ -92,27 +90,33 @@ const vagas = [
 const ListaVagas = () => {
   const [filtro, setFiltro] = useState<string>('')
 
+  // Tipagem do termo de busca explicitada para evitar o erro de 'any'
+  const aoPesquisar = (termo: string) => {
+    setFiltro(termo)
+  }
+
   const vagasFiltradas = vagas.filter(
-    (x) => x.titulo.toLocaleLowerCase().search(filtro) >= 0
+    (vaga) =>
+      vaga.titulo.toLocaleLowerCase().search(filtro.toLocaleLowerCase()) >= 0
   )
 
   return (
     <div>
-      <FormVagas aoPesquisar={(termo: string) => setFiltro(termo)} />
-      <ul className={styles.vagas}>
-        {vagasFiltradas.map((vag) => (
+      <FormVagas aoPesquisar={aoPesquisar} />
+      <CardList>
+        {vagasFiltradas.map((vaga) => (
           <Vaga
-            key={vag.id}
-            titulo={vag.titulo}
-            localizacao={vag.localizacao}
-            nivel={vag.nivel}
-            modalidade={vag.modalidade}
-            salarioMin={vag.salarioMin}
-            salarioMax={vag.salarioMax}
-            requisitos={vag.requisitos}
+            key={vaga.id}
+            titulo={vaga.titulo}
+            localizacao={vaga.localizacao}
+            nivel={vaga.nivel}
+            modalidade={vaga.modalidade}
+            salarioMin={vaga.salarioMin}
+            salarioMax={vaga.salarioMax}
+            requisitos={vaga.requisitos}
           />
         ))}
-      </ul>
+      </CardList>
     </div>
   )
 }
