@@ -1,6 +1,30 @@
 import { FormEvent, useState } from 'react'
+import styled from 'styled-components'
 
-import styles from './FormVagas.module.css'
+const FormContainer = styled.form`
+  display: grid;
+  grid-template-columns: 1fr auto;
+  background-color: ${({ theme }) => theme.cores.secundaria};
+  padding: 32px;
+  border-radius: 12px;
+  margin-top: 40px;
+`
+
+const CampoBusca = styled.input`
+  padding: 0 16px;
+  outline-color: ${({ theme }) => theme.cores.principal};
+`
+
+const BotaoPesquisar = styled.button`
+  background-color: ${({ theme }) => theme.cores.principal};
+  border: 1px solid ${({ theme }) => theme.cores.principal};
+  height: 40px;
+  padding: 0 16px;
+  font-size: 18px;
+  color: ${({ theme }) => theme.cores.secundaria};
+  margin-left: 8px;
+  cursor: pointer;
+`
 
 type Props = {
   aoPesquisar: (termo: string) => void
@@ -15,17 +39,15 @@ const FormVagas = ({ aoPesquisar }: Props) => {
   }
 
   return (
-    <form className={styles.form} onSubmit={aoEnviarForm}>
-      <input
-        className={styles.campo}
+    <FormContainer onSubmit={aoEnviarForm}>
+      <CampoBusca
         placeholder="Front-end, fullstack, node, design"
         onChange={(e) => setTermo(e.target.value)}
         type="search"
       />
-      <button className={styles.btnPesquisar} type="submit">
-        Pesquisar
-      </button>
-    </form>
+      <BotaoPesquisar type="submit">Pesquisar</BotaoPesquisar>
+    </FormContainer>
   )
 }
+
 export default FormVagas
