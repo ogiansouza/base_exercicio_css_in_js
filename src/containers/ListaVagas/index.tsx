@@ -3,7 +3,7 @@ import FormVagas from '../../components/FormVagas'
 
 import Vaga from '../../components/Vaga'
 
-import styles from './ListaVagas.module.css'
+import * as S from './styles'
 
 type Vaga = {
   id: string
@@ -99,20 +99,31 @@ const ListaVagas = () => {
   return (
     <div>
       <FormVagas aoPesquisar={(termo: string) => setFiltro(termo)} />
-      <ul className={styles.vagas}>
-        {vagasFiltradas.map((vag) => (
-          <Vaga
-            key={vag.id}
-            titulo={vag.titulo}
-            localizacao={vag.localizacao}
-            nivel={vag.nivel}
-            modalidade={vag.modalidade}
-            salarioMin={vag.salarioMin}
-            salarioMax={vag.salarioMax}
-            requisitos={vag.requisitos}
-          />
-        ))}
-      </ul>
+      <S.Resultado>
+        <strong>{vagasFiltradas.length}</strong>{' '}
+        {vagasFiltradas.length === 1 ? 'vaga encontrada' : 'vagas encontradas'}
+      </S.Resultado>
+      {vagasFiltradas.length > 0 ? (
+        <S.Vagas>
+          {vagasFiltradas.map((vag) => (
+            <Vaga
+              key={vag.id}
+              titulo={vag.titulo}
+              localizacao={vag.localizacao}
+              nivel={vag.nivel}
+              modalidade={vag.modalidade}
+              salarioMin={vag.salarioMin}
+              salarioMax={vag.salarioMax}
+              requisitos={vag.requisitos}
+            />
+          ))}
+        </S.Vagas>
+      ) : (
+        <S.SemResultados>
+          <h3>Nenhuma vaga encontrada</h3>
+          <p>Tente pesquisar por outro termo, como “front-end” ou “design”.</p>
+        </S.SemResultados>
+      )}
     </div>
   )
 }
