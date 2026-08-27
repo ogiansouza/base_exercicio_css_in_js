@@ -1,13 +1,19 @@
-import styles from './Hero.module.css'
+import { Form, HeroTitle } from './styles' // ← Corrigido: importa de './styles'
 
 const Hero = () => (
-  <form className={styles.form}>
+  <Form>
+    {' '}
+    {/* ← Corrigido: usa o Styled Component, não className */}
     <div className="container">
-      <h2 className={styles.heroTitle}>
+      {' '}
+      {/* ← Pode manter ou remover */}
+      <HeroTitle>
+        {' '}
+        {/* ← Corrigido: usa o Styled Component */}
         As melhores vagas para tecnologia, design e artes visuais.
-      </h2>
+      </HeroTitle>
     </div>
-  </form>
+  </Form>
 )
 
 export default Hero
