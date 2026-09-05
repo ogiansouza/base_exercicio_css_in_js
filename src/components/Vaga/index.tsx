@@ -1,4 +1,4 @@
-import styles from './Vaga.module.css'
+import { vagaContainer, vagaTitulo, vagaLink } from './style'
 
 type Props = {
   titulo: string
