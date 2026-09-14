@@ -2,11 +2,10 @@ import { useState } from 'react'
 import FormVagas from '../../components/FormVagas'
 
 import Vaga from '../../components/Vaga'
-
-import styles from './ListaVagas.module.css'
+import { ContainerVagas } from './style'
 
 type Vaga = {
-  id: string
+  id: number
   titulo: string
   localizacao: string
   nivel: string
@@ -92,27 +91,35 @@ const vagas = [
 const ListaVagas = () => {
   const [filtro, setFiltro] = useState<string>('')
 
-  const vagasFiltradas = vagas.filter(
-    (x) => x.titulo.toLocaleLowerCase().search(filtro) >= 0
+  const vagasFiltradas = vagas.filter((x) =>
+    `${x.titulo} ${x.localizacao} ${x.nivel} ${
+      x.modalidade
+    } ${x.requisitos.join(' ')}`
+      .toLocaleLowerCase()
+      .includes(filtro)
   )
 
   return (
     <div>
       <FormVagas aoPesquisar={(termo: string) => setFiltro(termo)} />
-      <ul className={styles.vagas}>
-        {vagasFiltradas.map((vag) => (
-          <Vaga
-            key={vag.id}
-            titulo={vag.titulo}
-            localizacao={vag.localizacao}
-            nivel={vag.nivel}
-            modalidade={vag.modalidade}
-            salarioMin={vag.salarioMin}
-            salarioMax={vag.salarioMax}
-            requisitos={vag.requisitos}
-          />
-        ))}
-      </ul>
+      <ContainerVagas aria-live="polite">
+        {vagasFiltradas.length > 0 ? (
+          vagasFiltradas.map((vag) => (
+            <Vaga
+              key={vag.id}
+              titulo={vag.titulo}
+              localizacao={vag.localizacao}
+              nivel={vag.nivel}
+              modalidade={vag.modalidade}
+              salarioMin={vag.salarioMin}
+              salarioMax={vag.salarioMax}
+              requisitos={vag.requisitos}
+            />
+          ))
+        ) : (
+          <p role="status">Nenhuma vaga encontrada para essa busca.</p>
+        )}
+      </ContainerVagas>
     </div>
   )
 }
