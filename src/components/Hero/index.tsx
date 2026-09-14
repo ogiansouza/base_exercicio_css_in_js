@@ -1,9 +1,9 @@
 import { FormularioHero, FormDiv, HeroTitle } from './style'
 
 const Hero = () => (
-  <FormularioHero>
+  <FormularioHero aria-labelledby="hero-title">
     <FormDiv>
-      <HeroTitle>
+      <HeroTitle id="hero-title">
         As melhores vagas para tecnologia, design e artes visuais.
       </HeroTitle>
     </FormDiv>

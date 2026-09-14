@@ -1,4 +1,4 @@
-import { Topo } from './styled'
+import { Topo } from './style'
 
 const Cabecalho = () => (
   <Topo>

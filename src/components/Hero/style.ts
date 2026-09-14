@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
-export const FormularioHero = styled.form`
-  height: 360px;
+export const FormularioHero = styled.section`
+  min-height: 360px;
   width: 100%;
   background-image: url('https://cdn.pixabay.com/photo/2018/08/10/15/45/woman-3597101_1280.jpg');
   background-size: cover;
@@ -17,9 +17,11 @@ export const FormularioHero = styled.form`
     background-color: var(--cor-principal);
     content: '';
     opacity: 0.7;
-    @media (max-width: 768px){
-      height: 87%;
-      padding: 24px 0;}
+  }
+
+  @media (max-width: 768px) {
+    min-height: 280px;
+  }
 `
 
 export const FormDiv = styled.div`
@@ -34,6 +36,6 @@ export const HeroTitle = styled.h2`
   font-size: 48px;
   text-align: center;
   @media (max-width: 768px) {
-
     font-size: 32px;
+  }
 `

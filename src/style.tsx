@@ -4,6 +4,7 @@ const GlobalStyle = createGlobalStyle`
     :root {
     --cor-principal: #6c5ce7;
     --cor-secundaria: #f4f4f4;
+    color-scheme: light;
     }
 
     * {
@@ -15,6 +16,8 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body {
+    background: #fff;
+    color: #222;
     padding-bottom: 120px;
     }
 
@@ -27,6 +30,12 @@ const GlobalStyle = createGlobalStyle`
     @media (max-width: 1024px) {
     .container {
         max-width: 80%;
+    }
+}
+
+    @media (max-width: 480px) {
+    .container {
+        max-width: calc(100% - 32px);
     }
 }
 `
